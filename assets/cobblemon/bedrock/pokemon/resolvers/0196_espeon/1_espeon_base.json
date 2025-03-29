@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:espeon",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:espeon2",
+            "model": "cobblemon:espeon2.geo",
+            "texture": "cobblemon:textures/pokemon/0196_espeon/espeon.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0196_espeon/espeon_emissive.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0196_espeon/espeon_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0196_espeon/espeon_shiny_emissive.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

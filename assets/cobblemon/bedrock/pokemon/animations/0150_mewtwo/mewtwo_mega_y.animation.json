@@ -1,0 +1,31 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.mewtwo_mega_y.tailmodifier": {
+            "loop": true,
+            "bones": {
+                "tail": {
+                    "rotation": [
+                        -32.5,
+                        0,
+                        0
+                    ]
+                },
+                "tail2": {
+                    "rotation": [
+                        -18.84359,
+                        21.40584,
+                        -7.09999
+                    ]
+                },
+                "tail3": {
+                    "rotation": [
+                        0,
+                        25,
+                        0
+                    ]
+                }
+            }
+        }
+    }
+}

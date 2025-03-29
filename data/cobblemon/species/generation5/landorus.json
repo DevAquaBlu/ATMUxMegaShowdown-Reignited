@@ -1,0 +1,280 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 645,
+  "name": "Landorus",
+  "primaryType": "ground",
+  "secondaryType": "flying",
+  "maleRatio": 1,
+  "height": 15,
+  "weight": 680,
+  "pokedex": [
+    "cobblemon.species.landorus.desc"
+  ],
+  "labels": [
+    "gen5",
+    "legendary"
+  ],
+  "aspects": [
+    "incarnate-forme"
+  ],
+  "abilities": [
+    "sandforce",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 89,
+    "attack": 125,
+    "defence": 90,
+    "special_attack": 115,
+    "special_defence": 80,
+    "speed": 101
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 90,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1.6,
+    "height": 3.25,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:punishment",
+    "1:rockthrow",
+    "1:smackdown",
+    "1:sandtomb",
+    "5:leer",
+    "10:block",
+    "15:bulldoze",
+    "20:rocktomb",
+    "30:imprison",
+    "35:rockslide",
+    "40:earthpower",
+    "45:extrasensory",
+    "50:stoneedge",
+    "55:hammerarm",
+    "60:sandstorm",
+    "65:earthquake",
+    "70:outrage",
+    "75:fissure",
+    "80:sandsearstorm",
+    "tm:attract",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:confide",
+    "tm:crunch",
+    "tm:defog",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fling",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:secretpower",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:weatherball",
+    "tutor:block",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:defog",
+    "tutor:earthpower",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower"
+  ],
+  "evolutions": [
+    {
+      "id": "landorus_landorustherian",
+      "variant": "level_up",
+      "result": "landorus mirror_forme=therian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:amethyst_shard"
+        }          
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Therian",
+      "primaryType": "ground",
+      "secondaryType": "flying",
+      "maleRatio": 1,
+      "height": 13,
+      "weight": 680,
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 1.6,
+        "height": 2.75,
+        "fixed": false
+      },
+      "pokedex": [
+        "cobblemon.species.landorus-therian.desc"
+      ],
+      "labels": [
+        "gen5",
+        "legendary"
+      ],
+      "aspects": [
+        "therian-forme"
+      ],
+      "abilities": [
+        "intimidate",
+        "h:intimidate"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "attack": 145,
+        "defence": 90,
+        "special_attack": 105,
+        "special_defence": 80,
+        "speed": 91
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evolutions": [
+        {
+          "id": "landorustherian_landorus",
+          "variant": "level_up",
+          "result": "landorus mirror_forme=incarnate",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:amethyst_shard"
+            }          
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

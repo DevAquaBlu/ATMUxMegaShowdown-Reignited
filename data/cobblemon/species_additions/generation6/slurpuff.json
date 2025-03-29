@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:slurpuff",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1.15,
+    "height": 1.55,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  }
+}

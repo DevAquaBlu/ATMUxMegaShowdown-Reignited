@@ -1,0 +1,67 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lycanroc-1",
+            "pokemon": "lycanroc",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "29-62",
+            "weight": 1.5,
+            "condition": {
+                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "lycanroc-2",
+            "pokemon": "lycanroc wolf_form=midnight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "29-62",
+            "weight": 1.5,
+            "condition": {
+                "timeRange": "night",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "lycanroc-3",
+            "pokemon": "lycanroc wolf_form=dusk",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "29-62",
+            "weight": 1.0,
+            "condition": {
+                "timeRange": "12000-13400",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        }
+    ]
+}

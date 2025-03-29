@@ -1,0 +1,34 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "latios-1",
+            "pokemon": "latios",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "65",
+            "weight": 4,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "minY": 150
+                }
+            },
+            "condition": {
+                "minY": 90,
+                "isRaining": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

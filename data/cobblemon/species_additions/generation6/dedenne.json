@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:dedenne",
+  "implemented": true,
+  "baseScale": 0.45,
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.23
+      }
+    }
+  }
+}

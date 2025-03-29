@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:pheromosa",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.9,
+    "height": 4,
+    "fixed": false
+  }
+}

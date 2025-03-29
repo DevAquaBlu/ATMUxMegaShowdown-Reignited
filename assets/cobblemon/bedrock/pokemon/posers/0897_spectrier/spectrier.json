@@ -1,0 +1,48 @@
+{
+    "portraitScale": 1.54,
+    "portraitTranslation": [
+        -1,
+        2.16,
+        0
+    ],
+    "profileScale": 0.37,
+    "profileTranslation": [
+        -0.02,
+        1.14,
+        0
+    ],
+    "poses": {
+        "battle-standing": {
+            "poseTypes": [
+                "STAND"
+            ],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('spectrier', 'battle_idle')"
+            ]
+        },
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('spectrier', 'ground_idle')"
+            ]
+        },
+        "walking": {
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('spectrier', 'ground_walk')"
+            ]
+        }
+    }
+}

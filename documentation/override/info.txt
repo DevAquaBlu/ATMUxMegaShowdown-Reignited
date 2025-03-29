@@ -1,0 +1,7 @@
+Replace the moves.js file in this directory:
+<Your Instance Folder>/showdown/data
+
+With the moves.js file in this current directory:
+ATMU/documentation/override
+
+This is to allow certain Pokémon's moves to work as intended, like Arceus and Genesect.

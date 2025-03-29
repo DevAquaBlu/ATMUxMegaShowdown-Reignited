@@ -1,0 +1,152 @@
+{
+    "head": "head",
+    "portraitScale": 2.11,
+    "portraitTranslation": [
+        -0.06,
+        2.19,
+        0
+    ],
+    "profileScale": 0.43,
+    "profileTranslation": [
+        -0.02,
+        1.04,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "isBattle": false,
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, ground_idle)",
+                "bedrock(mewtwo_mega_y, tailmodifier)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "isBattle": false,
+            "poseTypes": [
+                "WALK",
+                "FLY"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, air_fly)",
+                "bedrock(mewtwo_mega_y, tailmodifier)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "air-idle": {
+            "poseName": "air-idle",
+            "transformTicks": 10,
+            "isBattle": false,
+            "poseTypes": [
+                "HOVER"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, air_idle)",
+                "bedrock(mewtwo_mega_y, tailmodifier)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "isBattle": true,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, battle_idle)",
+                "bedrock(mewtwo2, glowing_eyes)",
+                "bedrock(mewtwo_mega_y, tailmodifier)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "isBattle": false,
+            "poseTypes": [
+                "SLEEP"
+            ],
+            "animations": [
+                "bedrock(mewtwo2, tubed)",
+                "bedrock(mewtwo_mega_y, tailmodifier)"
+            ]
+        },
+        "shoulderleft": {
+            "poseName": "shoulderleft",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_LEFT"
+            ],
+            "animations": [
+                "bedrock(mewtwo2, shoulder_left)",
+                "bedrock(mewtwo_mega_y, tailmodifier)"
+            ]
+        },
+        "shoulderright": {
+            "poseName": "shoulderright",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_RIGHT"
+            ],
+            "animations": [
+                "bedrock(mewtwo2, shoulder_right)",
+                "bedrock(mewtwo_mega_y, tailmodifier)"
+            ]
+        }
+    }
+}

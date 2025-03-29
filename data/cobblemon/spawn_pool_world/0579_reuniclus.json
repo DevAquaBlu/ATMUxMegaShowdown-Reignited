@@ -1,0 +1,44 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "reuniclus-1",
+            "pokemon": "reuniclus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "37-65",
+            "weight": 3.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_magical"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "reuniclus-2",
+            "pokemon": "reuniclus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "42-70",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        }
+    ]
+}

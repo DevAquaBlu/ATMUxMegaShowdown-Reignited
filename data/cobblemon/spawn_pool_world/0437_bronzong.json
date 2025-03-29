@@ -1,0 +1,69 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "bronzong-1",
+			"pokemon": "bronzong",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "rare",
+			"level": "40-65",
+			"weight": 2.0,
+			"condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+				"biomes": [
+					"#cobblemon:is_spooky"
+				]
+			}
+        },
+        {
+			"id": "bronzong-2",
+			"pokemon": "bronzong",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "rare",
+			"level": "40-65",
+			"weight": 2.0,
+			"condition": {
+				"canSeeSky": false,
+				"biomes": [
+					"#cobblemon:is_cave"
+				],
+				"anticondition": {
+				"biomes": [
+					"#cobblemon:is_lush"
+					]
+				}
+			}
+        },
+		{
+			"id": "bronzong-3",
+			"pokemon": "bronzong",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "rare",
+			"level": "40-65",
+			"weight": 2.0,
+			"condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+				"timeRange": "night",
+				"biomes": [
+					"#cobblemon:is_mountain"
+				]
+			}
+		}
+	]
+}

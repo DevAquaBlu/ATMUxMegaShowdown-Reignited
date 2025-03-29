@@ -1,0 +1,62 @@
+{
+    "portraitScale": 0.9,
+    "portraitTranslation": [
+        -0.2,
+        0.33,
+        0
+    ],
+    "profileScale": 0.7,
+    "profileTranslation": [
+        -0.1,
+        0.6,
+        0
+    ],
+    "faint": "bedrock(glalie, faint)",
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE",
+                "HOVER"
+            ],
+            "animations": [
+                "bedrock(glalie, air_idle)",
+                "bedrock(glalie, air_qwirk)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(glalie, blink)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK",
+                "FLY"
+            ],
+            "animations": [
+                "bedrock(glalie, air_fly)"
+            ],
+            "quirks": []
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SLEEP"
+            ],
+            "animations": [
+                "bedrock(glalie, sleep)"
+            ]
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ragingbolt-1",
+            "pokemon": "ragingbolt",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 4.5,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "isRaining": "true",
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            }
+        }
+    ]
+}

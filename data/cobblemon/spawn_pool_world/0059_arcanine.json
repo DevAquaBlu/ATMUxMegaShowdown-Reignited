@@ -1,0 +1,93 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "arcanine-1",
+            "pokemon": "arcanine",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-67",
+            "weight": 0.3,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "arcanine-2",
+            "pokemon": "arcanine",
+            "presets": [
+                "natural",
+                "village"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-67",
+            "weight": 0.3,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "arcanine-hisuian-3",
+            "pokemon": "arcanine hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-67",
+            "weight": 5.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_peak"
+                ]
+            }
+        },
+        {
+            "id": "arcanine-hisuian-4",
+            "pokemon": "arcanine hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-67",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt"
+                ]
+            }
+        }
+    ]
+}

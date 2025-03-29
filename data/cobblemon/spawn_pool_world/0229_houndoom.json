@@ -1,0 +1,44 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "houndoom-1",
+            "pokemon": "houndoom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "37-65",
+            "weight": 1,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "houndoom-2",
+            "pokemon": "houndoom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-65",
+            "weight": 3,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            }
+        }
+    ]
+}

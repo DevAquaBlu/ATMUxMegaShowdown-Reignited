@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:cyclizar",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:cyclizar",
+            "model": "cobblemon:cyclizar.geo",
+            "texture": "cobblemon:textures/pokemon/0967_cyclizar/cyclizar.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:cyclizar",
+            "model": "cobblemon:cyclizar.geo",
+            "texture": "cobblemon:textures/pokemon/0967_cyclizar/cyclizar_shiny.png",
+            "layers": []
+        }
+    ]
+}

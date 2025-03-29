@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:gastly",
+  "baseScale": 1.25,
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "-1"
+    }
+  }
+}

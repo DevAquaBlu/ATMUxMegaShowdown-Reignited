@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:cosmoem",
+  "implemented": true,
+  "baseScale": 0.35,
+  "hitbox": {
+    "width": 1,
+    "height": 1.8,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  }
+}

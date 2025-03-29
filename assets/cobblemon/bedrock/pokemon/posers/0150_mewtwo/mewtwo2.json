@@ -1,0 +1,145 @@
+{
+    "head": "head",
+    "portraitScale": 2.8,
+    "portraitTranslation": [
+        0,
+        2.2,
+        0
+    ],
+    "profileScale": 0.7,
+    "profileTranslation": [
+        0,
+        0.61,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "isBattle": false,
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, ground_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "isBattle": false,
+            "poseTypes": [
+                "WALK",
+                "FLY"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, air_fly)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "air-idle": {
+            "poseName": "air-idle",
+            "transformTicks": 10,
+            "isBattle": false,
+            "poseTypes": [
+                "HOVER"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, air_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "isBattle": true,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo2, battle_idle)",
+                "bedrock(mewtwo2, glowing_eyes)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "loopTimes": 1,
+                    "minSecondsBetweenOccurrences": 8,
+                    "maxSecondsBetweenOccurrences": 20,
+                    "animations": [
+                        "bedrock(mewtwo2, blink)"
+                    ]
+                }
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "isBattle": false,
+            "poseTypes": [
+                "SLEEP"
+            ],
+            "animations": [
+                "bedrock(mewtwo2, tubed)"
+            ]
+        },
+        "shoulderleft": {
+            "poseName": "shoulderleft",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_LEFT"
+            ],
+            "animations": [
+                "bedrock(mewtwo2, shoulder_left)"
+            ]
+        },
+        "shoulderright": {
+            "poseName": "shoulderright",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_RIGHT"
+            ],
+            "animations": [
+                "bedrock(mewtwo2, shoulder_right)"
+            ]
+        }
+    }
+}

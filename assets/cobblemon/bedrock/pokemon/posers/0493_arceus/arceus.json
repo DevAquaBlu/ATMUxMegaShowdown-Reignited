@@ -1,0 +1,41 @@
+{
+  "head": "head",
+  "portraitScale": 1.04,
+  "portraitTranslation": [-0.33, 4.35, 0.0],
+  "profileScale": 0.25,
+  "profileTranslation": [-0.02, 1.4, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('arceus', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('arceus', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('arceus', 'blink')"]
+    },
+    "battle": {
+      "poseName": "battle_idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('arceus', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('arceus', 'blink')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('arceus', 'walk')"],
+      "quirks": ["q.bedrock_quirk('arceus', 'blink')"]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('arceus', 'sleep')"]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:lunala",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 3,
+    "height": 4.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "11-15"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dudunsparce-1",
+            "pokemon": "dudunsparce",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-65",
+            "weight": 7.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "dudunsparce-2",
+            "pokemon": "dudunsparce",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-65",
+            "weight": 9.0,
+            "condition": {
+                "minY": 0,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_cave"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "dudunsparce-3",
+            "pokemon": "dudunsparce landsnake_form=three-segment",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-65",
+            "weight": 0.09,
+            "condition": {
+                "minY": 0,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_cave"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        }
+    ]
+}

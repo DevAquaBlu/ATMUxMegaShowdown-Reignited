@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:bellibolt",
+  "implemented": true,
+    "behaviour": {
+      "resting": {
+        "canSleep": false,
+        "depth": "normal",
+        "light": "4-15"
+      },
+      "moving": {
+        "canLook": false,
+        "walk": {
+          "walkSpeed": 0.180,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+        "swim": {
+          "swimSpeed": 0.1,
+          "canSwimInWater": false,
+          "canBreatheUnderwater": false
+        }
+     }
+  },
+  "hitbox": {
+    "width": 1.0,
+    "height": 0.8,
+    "fixed": false
+  }
+}

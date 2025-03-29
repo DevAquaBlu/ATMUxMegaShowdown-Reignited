@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mienfoo-1",
+            "pokemon": "mienfoo",
+            "presets": [
+				"natural"
+			],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "27-48",
+            "weight": 7.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+					"#cobblemon:is_desert",
+					"#cobblemon:is_savanna"
+				]
+			}
+		}
+	]
+}

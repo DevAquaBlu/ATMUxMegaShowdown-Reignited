@@ -1,0 +1,62 @@
+{
+    "head": "head",
+    "portraitScale": 2.36,
+    "portraitTranslation": [
+        -0.1,
+        2.64,
+        0
+    ],
+    "profileScale": 0.5,
+    "profileTranslation": [
+        0,
+        1,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE",
+                "HOVER"
+            ],
+            "isBattle": false,
+            "animations": [
+                "look",
+                "bedrock(mewtwo_mega_x, ground_idle)"
+            ],
+            "quirks": []
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "isBattle": false,
+            "poseTypes": [
+                "WALK",
+                "FLY"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo_mega_x, ground_idle)"
+            ],
+            "quirks": []
+        },
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "isBattle": true,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(mewtwo_mega_x, ground_idle)",
+                "bedrock(mewtwo_mega_x, glowing_eyes)"
+            ],
+            "quirks": []
+        }
+    }
+}

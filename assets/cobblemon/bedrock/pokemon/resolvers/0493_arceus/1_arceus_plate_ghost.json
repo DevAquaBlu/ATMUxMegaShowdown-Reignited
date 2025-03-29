@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:arceus",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "ghost-plate"
+            ],
+            "poser": "cobblemon:arceus",
+            "model": "cobblemon:arceus.geo",
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ghost.png"
+        },
+        {
+            "aspects": [
+                "ghost-plate",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ghost_shiny.png"
+        }
+    ]
+}

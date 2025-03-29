@@ -1,0 +1,93 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "growlithe-1",
+            "pokemon": "growlithe",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-37",
+            "weight": 5.7,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "growlithe-2",
+            "pokemon": "growlithe",
+            "presets": [
+                "natural",
+                "village"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-37",
+            "weight": 5.7,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "growlithe-hisuian-3",
+            "pokemon": "growlithe hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-37",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_peak"
+                ]
+            }
+        },
+        {
+            "id": "growlithe-hisuian-4",
+            "pokemon": "growlithe hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-37",
+            "weight": 8.1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt"
+                ]
+            }
+        }
+    ]
+}

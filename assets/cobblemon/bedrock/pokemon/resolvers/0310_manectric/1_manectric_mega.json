@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:manectric",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "mega"
+            ],
+            "poser": "cobblemon:mega_manectric",
+            "model": "cobblemon:mega_manectric.geo",
+            "texture": "cobblemon:textures/pokemon/0310_manectric/mega_manectric.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "mega",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0310_manectric/mega_manectric_shiny.png"
+        }
+    ]
+}

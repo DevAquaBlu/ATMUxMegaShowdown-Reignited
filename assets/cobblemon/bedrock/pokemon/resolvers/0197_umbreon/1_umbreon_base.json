@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:umbreon",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:umbreon2",
+            "model": "cobblemon:umbreon2.geo",
+            "texture": "cobblemon:textures/pokemon/0197_umbreon/umbreon.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0197_umbreon/umbreon_emissive.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0197_umbreon/umbreon_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0197_umbreon/umbreon_shiny_emissive.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

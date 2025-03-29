@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:vanillite",
+  "implemented": true,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "fly": {
+      "canFly": true
+    }
+  }
+}

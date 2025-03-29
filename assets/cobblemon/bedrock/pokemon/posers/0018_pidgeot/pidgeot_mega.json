@@ -1,0 +1,50 @@
+{
+    "head": "head",
+    "portraitScale": 1.2,
+    "portraitTranslation": [
+        -0.1,
+        1.4,
+        0
+    ],
+    "profileScale": 0.67,
+    "profileTranslation": [
+        0.1,
+        0.8,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(pidgeot_mega, air_idle)"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(pidgeot_mega, air_idle)"
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "transformTicks": 10,
+            "poseTypes": [
+                "FLY"
+            ],
+            "animations": [
+                "bedrock(pidgeot_mega, air_idle)"
+            ]
+        }
+    }
+}

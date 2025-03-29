@@ -1,0 +1,60 @@
+{
+    "head": "head",
+    "portraitScale": 2.36,
+    "portraitTranslation": [
+        -0.65,
+        -0.9,
+        0
+    ],
+    "profileScale": 0.44,
+    "profileTranslation": [
+        -0.01,
+        1.1,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(terapagos, ground_idle)"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(terapagos, ground_idle)"
+            ]
+        },
+        "shoulderLeft": {
+            "poseName": "shoulderLeft",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_LEFT"
+            ],
+            "animations": [
+                "bedrock(terapagos, shoulder_left)"
+            ]
+        },
+        "shoulderRight": {
+            "poseName": "shoulderRight",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_RIGHT"
+            ],
+            "animations": [
+                "bedrock(terapagos, shoulder_right)"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:seismitoad",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.6,
+    "height": 1.95,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.217
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

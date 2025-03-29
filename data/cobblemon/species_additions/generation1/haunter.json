@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:haunter",
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "-1"
+    }
+  }
+}

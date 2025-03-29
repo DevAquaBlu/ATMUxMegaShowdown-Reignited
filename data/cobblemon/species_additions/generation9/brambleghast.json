@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:brambleghast",
+  "implemented": true,
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1.05,
+    "height": 1.05,
+    "fixed": false
+  }
+}

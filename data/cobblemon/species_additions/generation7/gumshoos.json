@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:gumshoos",
+  "implemented": true,
+  "baseScale": 0.8,
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      }
+    }
+  }
+}

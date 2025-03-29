@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:arceus",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:arceus",
+            "model": "cobblemon:arceus.geo",
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus.png"
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_shiny.png"
+        }
+    ]
+}

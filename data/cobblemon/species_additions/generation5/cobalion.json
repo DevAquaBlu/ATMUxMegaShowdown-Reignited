@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:cobalion",
+  "implemented": true,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.65,
+    "height": 2.7,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 5,
+	"entries": [
+	  {
+		"item": "cobblemon:rare_candy",
+		"quantityRange": "3-6"
+      },
+	  {
+		"item": "cobblemon:metal_coat",
+		"percentage": 50.0
+	  },
+	  {
+		"item": "cobblemon:black_belt",
+		"percentage": 50.0
+	  },
+	  {
+	    "item": "cobblemon:ability_capsule",
+		"percentage": 25.0
+	  },
+	  {
+	    "item": "cobblemon:ability_patch",
+		"percentage": 5.0
+	  }
+    ]
+  }
+}

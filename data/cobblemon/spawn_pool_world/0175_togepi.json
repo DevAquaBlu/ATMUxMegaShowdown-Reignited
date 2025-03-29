@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "togepi-1",
+            "pokemon": "togepi",
+            "presets": [
+                "natural"
+			],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-22",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "timeRange": "morning",
+                "biomes": [
+                    "#cobblemon:is_magical",
+					"#cobblemon:is_floral"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:arceus",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "ice-plate"
+            ],
+            "poser": "cobblemon:arceus",
+            "model": "cobblemon:arceus.geo",
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ice.png"
+        },
+        {
+            "aspects": [
+                "ice-plate",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ice_shiny.png"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [
+        0,
+        0,
+        0
+    ],
+    "profileScale": 0.5,
+    "profileTranslation": [
+        0.05,
+        1,
+        0
+    ],
+    "animations": {},
+    "poses": {
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('weezing_galarian', 'ground_idle')"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(weezing_galarian, blink)"
+                    ]
+                },
+                {
+                    "name": "blink2",
+                    "animations": [
+                        "bedrock(weezing_galarian, blink2)"
+                    ]
+                },
+                {
+                    "name": "lookquirk",
+                    "animations": [
+                        "bedrock(weezing_galarian, look_quirk)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK",
+                "FLY",
+                "HOVER"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('weezing_galarian', 'ground_walk')"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(weezing_galarian, blink)"
+                    ]
+                },
+                {
+                    "name": "blink2",
+                    "animations": [
+                        "bedrock(weezing_galarian, blink2)"
+                    ]
+                }
+            ]
+        }
+    }
+}

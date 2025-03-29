@@ -1,0 +1,154 @@
+{
+    "head": "head",
+    "portraitScale": 1.91,
+    "portraitTranslation": [
+        -0.68,
+        1.7,
+        0
+    ],
+    "profileScale": 0.5,
+    "profileTranslation": [
+        0.04,
+        1.04,
+        0
+    ],
+    "animations": {
+        "faint": "q.bedrock_primary('charizard2', 'faint', q.curve('one'))",
+        "cry": "q.bedrock_stateful('charizard2', 'cry')",
+        "recoil": "q.bedrock_stateful('charizard2', 'recoil')",
+        "physical": "q.bedrock_primary('charizard2', 'physical', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_primary('charizard2', 'special', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_primary('charizard2', 'status', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "isBattle": true,
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(charizard2, battle_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(charizard2, blink)"
+                    ]
+                }
+            ]
+        },
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "look",
+                "bedrock(charizard2, ground_idle)"
+            ],
+            "isBattle": false,
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(charizard2, blink)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "look",
+                "bedrock(charizard2, ground_walk)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(charizard2, blink)"
+                    ]
+                }
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "transformTicks": 10,
+            "poseTypes": [
+                "HOVER"
+            ],
+            "animations": [
+                "bedrock(charizard2, air_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(charizard2, blink)"
+                    ]
+                }
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "transformTicks": 10,
+            "poseTypes": [
+                "FLY"
+            ],
+            "animations": [
+                "bedrock(charizard2, air_fly)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(charizard2, blink)"
+                    ]
+                }
+            ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SLEEP"
+            ],
+            "animations": [
+                "bedrock(charizard2, sleep)"
+            ],
+            "quirks": []
+        },
+        "shoulderleft": {
+            "poseName": "shoulderleft",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_LEFT"
+            ],
+            "animations": [
+                "bedrock(charizard2, shoulder_left)"
+            ]
+        },
+        "shoulderright": {
+            "poseName": "shoulderright",
+            "transformTicks": 10,
+            "poseTypes": [
+                "SHOULDER_RIGHT"
+            ],
+            "animations": [
+                "bedrock(charizard2, shoulder_right)"
+            ]
+        }
+    }
+}

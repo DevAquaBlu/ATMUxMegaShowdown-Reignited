@@ -1,0 +1,44 @@
+{
+    "head": "head",
+    "portraitScale": 1.88,
+    "portraitTranslation": [
+        -0.87,
+        0.26,
+        0
+    ],
+    "profileScale": 0.38,
+    "profileTranslation": [
+        0,
+        1.16,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "q.look('head')",
+                "bedrock(terapagos_terastal, idle)"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK",
+                "FLY",
+                "HOVER"
+            ],
+            "animations": [
+                "q.look('head')",
+                "bedrock(terapagos_terastal, idle)"
+            ]
+        }
+    }
+}

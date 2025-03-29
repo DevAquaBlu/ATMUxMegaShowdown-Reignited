@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "chewtle-1",
+            "pokemon": "chewtle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-20",
+            "weight": 7,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#minecraft:is_beach"
+                ]
+            }
+        },
+        {
+            "id": "chewtle-2",
+            "pokemon": "chewtle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "7-20",
+            "weight": 7,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        }
+    ]
+}

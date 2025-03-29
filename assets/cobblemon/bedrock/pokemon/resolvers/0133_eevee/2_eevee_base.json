@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:eevee",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:eevee2",
+            "model": "cobblemon:eevee2_male.geo",
+            "texture": "cobblemon:textures/pokemon/0133_eevee/eevee.png"
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_shiny.png"
+        },
+        {
+            "aspects": [
+                "female"
+            ],
+            "model": "cobblemon:eevee2_female.geo"
+        },
+        {
+            "aspects": [
+                "shiny",
+                "female"
+            ],
+            "model": "cobblemon:eevee2_female.geo",
+            "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_shiny.png"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:toxtricity",
+  "implemented": true,
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 1.15,
+    "height": 4.1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  }
+}

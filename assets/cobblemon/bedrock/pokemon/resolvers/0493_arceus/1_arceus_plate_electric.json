@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:arceus",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "electric-plate"
+            ],
+            "poser": "cobblemon:arceus",
+            "model": "cobblemon:arceus.geo",
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_electric.png"
+        },
+        {
+            "aspects": [
+                "electric-plate",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_electric_shiny.png"
+        }
+    ]
+}

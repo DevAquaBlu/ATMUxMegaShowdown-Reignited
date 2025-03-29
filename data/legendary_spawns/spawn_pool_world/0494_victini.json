@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "victini-1",
+            "pokemon": "victini",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50",
+            "weight": 2,
+            "weightMultiplier": {
+                "multiplier": 2,
+                "condition": {
+                    "timeRange": "morning"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        }
+    ]
+}

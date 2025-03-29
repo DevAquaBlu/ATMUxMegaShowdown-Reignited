@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "banette-1",
+            "pokemon": "banette",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "37-63",
+            "weight": 7,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "banette-2",
+            "pokemon": "banette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "37-63",
+            "weight": 1,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            }
+        }
+    ]
+}

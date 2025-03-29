@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "braviary-hisuian-3",
+            "pokemon": "braviary hisuian",
+            "presets": [
+                "natural",
+                "treetop",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "56-63",
+            "weight": 1.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_frozen"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:bombirdier",
+  "implemented": "true",
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 1.15,
+    "height": 3,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  }
+}

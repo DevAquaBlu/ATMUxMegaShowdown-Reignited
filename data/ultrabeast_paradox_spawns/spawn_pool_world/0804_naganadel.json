@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "naganadel-1",
+            "pokemon": "naganadel",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "40-65",
+            "weight": 5.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:bee_nest"
+                ]
+            }
+        },
+        {
+            "id": "naganadel-2",
+            "pokemon": "naganadel",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        }
+    ]
+}

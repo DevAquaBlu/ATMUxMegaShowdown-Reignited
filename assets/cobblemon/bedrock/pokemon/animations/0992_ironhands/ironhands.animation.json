@@ -1,0 +1,68 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ironhands.pose": {
+			"loop": true,
+			"bones": {
+				"bone2": {
+					"rotation": [0, -22.5, 0]
+				},
+				"bone5": {
+					"rotation": [0, 17.5, 0]
+				},
+				"arm_right": {
+					"rotation": [-2.59775, 27.38656, 9.36696],
+					"position": [2, 0, 0]
+				},
+				"mid_finger4": {
+					"rotation": [-7.5, 0, 7.5]
+				},
+				"arm_left": {
+					"rotation": [17.02862, -15.22496, -18.44357],
+					"position": [0, 4, 2]
+				}
+			}
+		},
+		"animation.ironhands.ground_idle": {
+			"loop": true,
+			"bones": {
+				"arm_right": {
+					"rotation": [0, 0, 140]
+				},
+				"arm_left": {
+					"rotation": [0, 0, -140]
+				}
+			}
+		},
+		"animation.ironhands.ground_walk": {
+			"loop": true,
+			"bones": {
+				"arm_right": {
+					"rotation": [0, 0, "140+2*(math.sin(q.anim_time*90*1.2)*1)+2*(math.sin(q.anim_time*90*4)*1)"]
+				},
+				"arm_left": {
+					"rotation": [0, 0, "-140-2*(math.sin(q.anim_time*90*1.2)*1)-2*(math.sin(q.anim_time*90*4)*1)"]
+				},
+				"body": {
+					"rotation": [12.5, 0, 0],
+					"position": [0, "2+0.5*(math.sin(q.anim_time*90*3+45)*1+1)", 0]
+				},
+				"torso": {
+					"rotation": [0, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [0, 0, 0]
+				},
+				"bone2": {
+					"rotation": [0, 0, 0]
+				},
+				"leg_right": {
+					"rotation": [0, 0, 0]
+				},
+				"bone5": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+    "portraitScale": 1.71,
+    "portraitTranslation": [
+        -0.41,
+        0.3,
+        0
+    ],
+    "profileScale": 0.71,
+    "profileTranslation": [
+        0.03,
+        0.68,
+        0
+    ],
+    "rootBone": "espeon2",
+    "animations": {
+        "cry": "q.bedrock_stateful('espeon2', 'cry')",
+        "recoil": "q.bedrock_stateful('espeon2', 'cry')",
+        "physical": "q.bedrock_stateful('espeon2', 'cry', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_stateful('espeon2', 'cry', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_stateful('espeon2', 'cry', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+        "battle-standing": {
+            "poseTypes": [
+                "STAND"
+            ],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('espeon2', 'ground_idle')",
+                "q.bedrock('espeon2', 'glow')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('espeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE",
+                "FLOAT"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('espeon2', 'ground_idle')"
+            ],
+            "isBattle": false,
+            "quirks": [
+                "q.bedrock_quirk('espeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "walking": {
+            "poseTypes": [
+                "WALK",
+                "SWIM"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('espeon2', 'ground_walk')",
+                "q.bedrock('espeon2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('espeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        }
+    }
+}

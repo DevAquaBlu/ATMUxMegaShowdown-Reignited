@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:grapploct",
+  "implemented": true,
+  "baseScale": 1.15,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

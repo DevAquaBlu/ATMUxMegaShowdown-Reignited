@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:arceus",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "dragon-plate"
+            ],
+            "poser": "cobblemon:arceus",
+            "model": "cobblemon:arceus.geo",
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dragon.png"
+        },
+        {
+            "aspects": [
+                "dragon-plate",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dragon_shiny.png"
+        }
+    ]
+}

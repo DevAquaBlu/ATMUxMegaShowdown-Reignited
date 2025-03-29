@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:skwovet",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1,
+    "height": 0.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:pyroar",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+      }
+   }
+}

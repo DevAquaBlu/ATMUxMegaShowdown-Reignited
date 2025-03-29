@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:deoxys",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": [
+                "defense-forme"
+            ],
+            "poser": "cobblemon:deoxysdefense",
+            "model": "cobblemon:deoxysdefense.geo",
+            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxysdefense.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "defense-forme"
+            ],
+            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxysdefense_shiny.png"
+        }
+    ]
+}

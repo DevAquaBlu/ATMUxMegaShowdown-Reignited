@@ -1,0 +1,555 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1017,
+  "name": "Ogerpon",
+  "primaryType": "grass",
+  "maleRatio": 0,
+  "height": 12,
+  "weight": 398,
+  "pokedex": [
+    "cobblemon.species.ogerpon.desc"
+  ],
+  "labels": [
+    "gen9",
+    "legendary"
+  ],
+  "aspects": [
+    "teal-mask"
+  ],
+  "abilities": [
+    "defiant",
+    "h:defiant"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 120,
+    "defence": 84,
+    "special_attack": 60,
+    "special_defence": 96,
+    "speed": 110
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 275,
+  "experienceGroup": "slow",
+  "catchRate": 5,
+  "eggCycles": 10,
+  "baseFriendship": 50,
+  "baseScale": 0.7,
+  "hitbox": {
+     "width": 1.1,
+     "height": 1.9,
+     "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:vinewhip",
+    "1:leechseed",
+    "1:quickattack",
+    "1:followme",
+    "1:doublekick",
+    "1:counter",
+    "1:retaliate",
+    "1:hornleech",
+    "6:focusenergy",
+    "12:growth",
+    "18:slam",
+    "24:lowsweep",
+    "30:ivycudgel",
+    "36:throatchop",
+    "42:synthesis",
+    "48:spikyshield",
+    "54:powerwhip",
+    "60:superpower",
+    "66:woodhammer",
+    "tm:brickbreak",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:playrough",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:spikes",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:zenheadbutt",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:throatchop",
+    "tutor:zenheadbutt"
+  ],
+  "evolutions": [
+    {
+      "id": "ogerpon_ogerponwater",
+      "variant": "level_up",
+      "result": "ogerpon ogre_mask=wellspring",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:mystic_water"
+        }
+      ]
+    },
+    {
+      "id": "ogerpon_ogerponfire",
+      "variant": "level_up",
+      "result": "ogerpon ogre_mask=hearthflame",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:charcoal_stick"
+        }
+      ]
+    },
+    {
+      "id": "ogerpon_ogerponrock",
+      "variant": "level_up",
+      "result": "ogerpon ogre_mask=cornerstone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:hard_stone"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Wellspring",
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "maleRatio": 0,
+      "height": 12,
+      "weight": 398,
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.475
+          }
+        }
+      },
+      "pokedex": [
+        "cobblemon.species.ogerpon-wellspring.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "wellspring-mask"
+      ],
+      "abilities": [
+        "waterabsorb",
+        "h:waterabsorb"
+      ],
+      "eggCycles": 5,
+      "evolutions": [
+        {
+          "id": "ogerponwater_ogerpon",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=teal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:miracle_seed"
+            }
+          ]
+        },
+        {
+          "id": "ogerponwater_ogerponfire",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=hearthflame",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:charcoal_stick"
+            }
+          ]
+        },
+        {
+          "id": "ogerponwater_ogerponrock",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=cornerstone",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:hard_stone"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Hearthflame",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "maleRatio": 0,
+      "height": 12,
+      "weight": 398,
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.475
+          }
+        }
+      },
+      "pokedex": [
+        "cobblemon.species.ogerpon-hearthflame.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "hearthflame-mask"
+      ],
+      "abilities": [
+        "moldbreaker",
+        "h:moldbreaker"
+      ],
+      "eggCycles": 5,
+      "evolutions": [
+        {
+          "id": "ogerponfire_ogerpon",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=teal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:miracle_seed"
+            }
+          ]
+        },
+        {
+          "id": "ogerponfire_ogerponwater",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=wellspring",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:mystic_water"
+            }
+          ]
+        },
+        {
+          "id": "ogerponfire_ogerponrock",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=cornerstone",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:hard_stone"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Cornerstone",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "maleRatio": 0,
+      "height": 12,
+      "weight": 398,
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.475
+          }
+        }
+      },
+      "pokedex": [
+        "cobblemon.species.ogerpon-cornerstone.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "cornerstone-mask"
+      ],
+      "abilities": [
+        "sturdy",
+        "h:sturdy"
+      ],
+      "eggCycles": 5,
+      "evolutions": [
+        {
+          "id": "ogerponrock_ogerpon",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=teal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:miracle_seed"
+            }
+          ]
+        },
+        {
+          "id": "ogerponrock_ogerponwater",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=wellspring",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:mystic_water"
+            }
+          ]
+        },
+        {
+          "id": "ogerponrock_ogerponfire",
+          "variant": "level_up",
+          "result": "ogerpon ogre_mask=hearthflame",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:charcoal_stick"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Teal-Tera",
+      "primaryType": "grass",
+      "maleRatio": 0,
+      "height": 12,
+      "weight": 398,
+      "pokedex": [
+        "cobblemon.species.ogerpon-tealtera.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "teal-mask"
+      ],
+      "abilities": [
+        "embodyaspectteal",
+        "h:embodyaspectteal"
+      ],
+      "eggCycles": 5,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Wellspring-Tera",
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "maleRatio": 0,
+      "height": 12,
+      "weight": 398,
+      "pokedex": [
+        "cobblemon.species.ogerpon-wellspringtera.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "wellspring-mask"
+      ],
+      "abilities": [
+        "embodyaspectwellspring",
+        "h:embodyaspectwellspring"
+      ],
+      "eggCycles": 5,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Hearthflame-Tera",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "maleRatio": 0,
+      "height": 12,
+      "weight": 398,
+      "pokedex": [
+        "cobblemon.species.ogerpon-hearthflametera.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "hearthflame-mask"
+      ],
+      "abilities": [
+        "embodyaspecthearthflame",
+        "h:embodyaspecthearthflame"
+      ],
+      "eggCycles": 5,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "Cornerstone-Tera",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "maleRatio": 0,
+      "height": 12,
+      "weight": 398,
+      "pokedex": [
+        "cobblemon.species.ogerpon-cornerstonetera.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "cornerstone-mask"
+      ],
+      "abilities": [
+        "embodyaspectcornerstone",
+        "h:embodyaspectcornerstone"
+      ],
+      "eggCycles": 5,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": false
+    }
+  ]
+}

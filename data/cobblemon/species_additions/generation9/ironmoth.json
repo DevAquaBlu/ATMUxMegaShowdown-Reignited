@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:ironmoth",
+  "implemented": true,
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 1.3,
+    "height": 3.3,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  }
+}

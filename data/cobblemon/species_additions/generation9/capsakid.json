@@ -1,0 +1,17 @@
+{
+ "target": "cobblemon:capsakid",
+ "implemented": true,
+ "hitbox": {
+   "width": 0.5,
+   "height": 0.65,
+   "fixed": false
+ },
+ "behaviour": {
+   "resting": {
+     "canSleep": true,
+     "willSleepOnBed": true,
+     "depth": "normal",
+     "light": "0-4"
+    }
+  }
+}

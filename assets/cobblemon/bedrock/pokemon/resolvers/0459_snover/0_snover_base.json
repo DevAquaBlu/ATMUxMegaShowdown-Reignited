@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:snover",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:snover",
+            "model": "cobblemon:snover.geo",
+            "texture": "cobblemon:textures/pokemon/0459_snover/snover_male.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0459_snover/snover_shiny_male.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "female"
+            ],
+            "texture": "cobblemon:textures/pokemon/0459_snover/snover_female.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "female"
+            ],
+            "texture": "cobblemon:textures/pokemon/0459_snover/snover_shiny_female.png",
+            "layers": []
+        }
+    ]
+}

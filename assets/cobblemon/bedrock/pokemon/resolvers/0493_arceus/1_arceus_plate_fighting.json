@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:arceus",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "fighting-plate"
+            ],
+            "poser": "cobblemon:arceus",
+            "model": "cobblemon:arceus.geo",
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fighting.png"
+        },
+        {
+            "aspects": [
+                "fighting-plate",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fighting_shiny.png"
+        }
+    ]
+}

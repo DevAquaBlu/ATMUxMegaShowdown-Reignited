@@ -1,0 +1,42 @@
+{
+  "target": "cobblemon:azelf",
+  "implemented": true,
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

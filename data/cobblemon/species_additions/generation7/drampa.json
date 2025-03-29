@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:drampa",
+  "implemented": true,
+  "hitbox": {
+    "width": 1.6,
+    "height": 2,
+    "fixed": false
+  }
+}

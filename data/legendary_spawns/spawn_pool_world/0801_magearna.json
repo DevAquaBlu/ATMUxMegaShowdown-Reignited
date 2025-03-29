@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "magearna-1",
+            "pokemon": "magearna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "60-65",
+            "weight": 3,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_cherry_blossom"
+                ]
+            }
+        },
+        {
+            "id": "magearna-2",
+            "pokemon": "magearna paint_color=original",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "60-65",
+            "weight": 0.15,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_cherry_blossom"
+                ]
+            }
+        }
+    ]
+}

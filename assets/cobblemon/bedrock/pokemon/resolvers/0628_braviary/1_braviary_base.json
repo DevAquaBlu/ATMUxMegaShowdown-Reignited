@@ -1,0 +1,9 @@
+{
+    "species": "cobblemon:braviary",
+    "order": 1,
+    "variations": [
+        {
+            "poser": "cobblemon:braviary2"
+        }
+    ]
+}

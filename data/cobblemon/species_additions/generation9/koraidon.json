@@ -1,0 +1,50 @@
+{
+  "target": "cobblemon:koraidon",
+  "implemented": "true",
+  "maleRatio": 0.5,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.9,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "moving": {
+      "swim": {
+        "canWalkOnLava": true,
+        "canBreatheUnderlava": true,
+        "avoidsWater": false,
+        "canSwimInWater": true,
+        "canSwimInLava": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "cobblemon:black_belt",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

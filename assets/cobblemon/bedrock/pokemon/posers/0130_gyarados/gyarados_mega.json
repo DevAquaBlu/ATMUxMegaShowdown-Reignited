@@ -1,0 +1,33 @@
+{
+    "portraitScale": 1,
+    "portraitTranslation": [
+        -1.43,
+        0.61,
+        0
+    ],
+    "profileScale": 0.35,
+    "profileTranslation": [
+        -0.1,
+        1.23,
+        0
+    ],
+    "animations": {},
+    "poses": {
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE",
+                "WALK",
+                "SWIM",
+                "FLOAT"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gyarados_mega', 'ground_idle')"
+            ],
+            "quirks": []
+        }
+    }
+}

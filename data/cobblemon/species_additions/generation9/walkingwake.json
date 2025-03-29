@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:walkingwake",
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.9,
+    "height": 3.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "swim": {
+        "canWalkOnWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

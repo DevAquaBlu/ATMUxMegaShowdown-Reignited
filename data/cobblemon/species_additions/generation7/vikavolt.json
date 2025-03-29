@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:vikavolt",
+  "implemented": true,
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1,
+    "fixed": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "head": "head",
+    "portraitScale": 1.5,
+    "portraitTranslation": [ -2.6, 2.02, 0 ],
+    "profileScale": 0.35,
+    "profileTranslation": [ 0, 1.13, 0 ],
+    "poses": {
+
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+        "animations": [
+          "look",
+          "bedrock(zamazenta_crowned, ground_idle)"
+        ]
+      },
+
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ 
+          "look",
+          "bedrock(zamazenta_crowned, ground_walk)"
+        ]
+      }
+    }
+  }

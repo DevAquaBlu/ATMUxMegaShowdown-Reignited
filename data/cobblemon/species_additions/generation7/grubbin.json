@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:grubbin",
+  "implemented": true,
+  "baseScale": 0.55,
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.18
+      }
+    }
+  }
+}

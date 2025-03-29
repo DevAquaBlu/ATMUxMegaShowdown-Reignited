@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rayquaza-1",
+            "pokemon": "rayquaza",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 1.5,
+            "weightMultipliers": [
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "minY": 160
+                    }
+                },
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "minY": 200
+                    }
+                }
+            ],
+            "condition": {
+                "minY": 120,
+                "timeRange": "day",
+                "isRaining": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

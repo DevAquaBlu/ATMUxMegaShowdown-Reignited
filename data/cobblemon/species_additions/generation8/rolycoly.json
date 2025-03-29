@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:rolycoly",
+  "implemented": true,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.85,
+    "height": 0.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  }
+}

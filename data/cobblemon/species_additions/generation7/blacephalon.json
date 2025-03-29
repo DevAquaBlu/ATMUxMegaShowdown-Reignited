@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:blacephalon",
+  "implemented": true,
+  "baseScale": 0.85,
+  "hitbox": {
+    "width": 1.1,
+    "height": 3.6,
+    "fixed": false
+  }
+}

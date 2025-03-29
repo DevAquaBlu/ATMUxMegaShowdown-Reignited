@@ -1,0 +1,26 @@
+{
+    
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironvaliant",
+            "pokemon": "ironvaliant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ]
+            }
+        }
+    ]
+}

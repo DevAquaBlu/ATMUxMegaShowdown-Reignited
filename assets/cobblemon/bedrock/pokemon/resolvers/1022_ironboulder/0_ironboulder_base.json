@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:ironboulder",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:ironboulder",
+            "model": "cobblemon:ironboulder.geo",
+            "texture": "cobblemon:textures/pokemon/1022_ironboulder/ironboulder.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/1022_ironboulder/ironboulder_emissive.png"
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/1022_ironboulder/ironboulder_shiny.png"
+        }
+    ]
+}

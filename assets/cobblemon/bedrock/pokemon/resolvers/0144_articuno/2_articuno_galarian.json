@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:articuno",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": [
+                "galarian"
+            ],
+            "poser": "cobblemon:articuno_galarian",
+            "model": "cobblemon:articuno_galarian.geo",
+            "texture": "cobblemon:textures/pokemon/0144_articuno/articuno_galarian.png"
+        },
+        {
+            "aspects": [
+                "galarian",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0144_articuno/articuno_galarian_shiny.png"
+        }
+    ]
+}

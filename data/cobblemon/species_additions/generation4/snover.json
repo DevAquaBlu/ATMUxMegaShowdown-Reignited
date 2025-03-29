@@ -1,0 +1,11 @@
+{
+  "target": "cobblemon:snover",
+  "implemented": true,
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.22
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.189, -0.4, 0],
+  "profileScale": 0.66,
+  "profileTranslation": [0, 0.8, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('togedemaru', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('togedemaru', 'cry')",
+    "recoil": "q.bedrock_stateful('togedemaru', 'recoil')",
+    "physical": "q.bedrock_primary('togedemaru', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('togedemaru', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('togedemaru', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('togedemaru', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('togedemaru', 'blink')",
+		 "q.bedrock_quirk('togedemaru', 'look_around')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('togedemaru', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('togedemaru', 'blink')",
+		 "q.bedrock_quirk('togedemaru', 'look_around')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('togedemaru', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('togedemaru', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('togedemaru', 'ground_walk')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('togedemaru', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('togedemaru', 'sleep')"]
+    },
+    "shoulder_left": {
+      "poseName": "shoulder_left",
+      "transformTicks": 5,
+      "poseTypes": [ "SHOULDER_LEFT" ],
+      "animations": [
+        "bedrock(togedemaru, shoulder_left)"
+      ]
+    },
+    "shoulder_right": {
+      "poseName": "shoulder_right",
+      "transformTicks": 5,
+      "poseTypes": [ "SHOULDER_RIGHT" ],
+      "animations": [
+        "bedrock(togedemaru, shoulder_right)"
+      ]
+    }
+  }
+}

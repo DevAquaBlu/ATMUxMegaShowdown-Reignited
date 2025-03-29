@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:ironcrown",
+  "implemented": true,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 1.3,
+	"height": 1.8,
+	"fixed": false
+  }
+}

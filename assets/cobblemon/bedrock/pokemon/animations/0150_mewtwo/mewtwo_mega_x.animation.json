@@ -1,0 +1,858 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.mewtwo_mega_x.ground_idle": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        10,
+                        0,
+                        0
+                    ]
+                },
+                "shoulder_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        27.5
+                    ]
+                },
+                "elbow_left": {
+                    "rotation": [
+                        10,
+                        37.5,
+                        0
+                    ]
+                },
+                "wrist_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        25
+                    ]
+                },
+                "thumb_left": {
+                    "rotation": [
+                        35.68672,
+                        -22.9193,
+                        -15.6263
+                    ]
+                },
+                "thumb2_left": {
+                    "rotation": [
+                        37.5,
+                        0,
+                        0
+                    ]
+                },
+                "thumb3_left": {
+                    "rotation": [
+                        30,
+                        0,
+                        0
+                    ]
+                },
+                "middlefinger_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        37.5
+                    ]
+                },
+                "middlefinger2_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        22.5
+                    ]
+                },
+                "middlefinger3_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        37.5
+                    ]
+                },
+                "pinkie_left": {
+                    "rotation": [
+                        -1.11758,
+                        5.4762,
+                        42.5557
+                    ]
+                },
+                "pinkie2_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        27.5
+                    ]
+                },
+                "pinkie3_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        47.5
+                    ]
+                },
+                "shoulder_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -27.5
+                    ]
+                },
+                "elbow_right": {
+                    "rotation": [
+                        10,
+                        -37.5,
+                        0
+                    ]
+                },
+                "wrist_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -25
+                    ]
+                },
+                "thumb_right": {
+                    "rotation": [
+                        35.68672,
+                        22.91934,
+                        15.62633
+                    ]
+                },
+                "thumb2_right": {
+                    "rotation": [
+                        37.5,
+                        0,
+                        0
+                    ]
+                },
+                "thumb3_right": {
+                    "rotation": [
+                        30,
+                        0,
+                        0
+                    ]
+                },
+                "middlefinger_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -37.5
+                    ]
+                },
+                "middlefinger2_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -22.5
+                    ]
+                },
+                "middlefinger3_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -37.5
+                    ]
+                },
+                "pinkie_right": {
+                    "rotation": [
+                        -1.11758,
+                        -5.47622,
+                        -42.55572
+                    ]
+                },
+                "pinkie2_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -27.5
+                    ]
+                },
+                "pinkie3_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -47.5
+                    ]
+                },
+                "tail": {
+                    "rotation": [
+                        7.5,
+                        0,
+                        0
+                    ]
+                },
+                "tail2": {
+                    "rotation": [
+                        17.5,
+                        0,
+                        0
+                    ]
+                },
+                "tail3": {
+                    "rotation": [
+                        17.5,
+                        0,
+                        0
+                    ]
+                },
+                "tail4": {
+                    "rotation": [
+                        32.5,
+                        0,
+                        0
+                    ]
+                },
+                "leg_left": {
+                    "rotation": [
+                        1.91413,
+                        -13.8953,
+                        -7.6609
+                    ]
+                },
+                "foot_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        7.5
+                    ]
+                },
+                "foot_thumb_left": {
+                    "rotation": [
+                        -10,
+                        0,
+                        -32.5
+                    ]
+                },
+                "foot_thumb_left2": {
+                    "rotation": [
+                        0,
+                        0,
+                        10
+                    ]
+                },
+                "foot_thumb_left3": {
+                    "rotation": [
+                        0,
+                        0,
+                        17.5
+                    ]
+                },
+                "toe_left_right": {
+                    "rotation": [
+                        14.3421,
+                        -10.9324,
+                        2.3006
+                    ]
+                },
+                "toe_bend_left_right": {
+                    "rotation": [
+                        -12.5,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_left_right": {
+                    "rotation": [
+                        -15,
+                        0,
+                        0
+                    ]
+                },
+                "toe_left_left": {
+                    "rotation": [
+                        15,
+                        0,
+                        0
+                    ]
+                },
+                "toe_bend_left_left": {
+                    "rotation": [
+                        -12.5,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_left_left": {
+                    "rotation": [
+                        -15,
+                        0,
+                        0
+                    ]
+                },
+                "leg_right": {
+                    "rotation": [
+                        1.91413,
+                        13.89529,
+                        7.66095
+                    ]
+                },
+                "foot_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -7.5
+                    ]
+                },
+                "foot_thumb_right": {
+                    "rotation": [
+                        -10,
+                        0,
+                        32.5
+                    ]
+                },
+                "foot_thumb_right2": {
+                    "rotation": [
+                        0,
+                        0,
+                        -10
+                    ]
+                },
+                "foot_thumb_right3": {
+                    "rotation": [
+                        0,
+                        0,
+                        -17.5
+                    ]
+                },
+                "toe_left_right2": {
+                    "rotation": [
+                        14.3421,
+                        10.93239,
+                        -2.30059
+                    ]
+                },
+                "toe_bend_left_right2": {
+                    "rotation": [
+                        -12.5,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_left_right2": {
+                    "rotation": [
+                        -15,
+                        0,
+                        0
+                    ]
+                },
+                "toe_right_left": {
+                    "rotation": [
+                        15,
+                        0,
+                        0
+                    ]
+                },
+                "toe_bend_right_left": {
+                    "rotation": [
+                        -12.5,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_right_left": {
+                    "rotation": [
+                        -15,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.mewtwo_mega_x.glowing_eyes": {
+            "loop": true,
+            "bones": {
+                "eye_right": {
+                    "position": [
+                        0,
+                        0,
+                        0.1
+                    ]
+                },
+                "eye_left": {
+                    "position": [
+                        -0.1,
+                        0,
+                        0
+                    ]
+                },
+                "eye_right_glow": {
+                    "position": [
+                        0,
+                        0,
+                        -0.2
+                    ]
+                },
+                "eye_left_glow": {
+                    "position": [
+                        0.2,
+                        0,
+                        0
+                    ]
+                },
+                "pupil_right_glow": {
+                    "position": [
+                        0,
+                        0,
+                        -0.2
+                    ]
+                },
+                "pupil_left_glow": {
+                    "position": [
+                        0.2,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.mewtwo_mega_x.render": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        -45,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -0.75,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        14.8174,
+                        24.0804,
+                        8.43721
+                    ]
+                },
+                "pupil_right": {
+                    "position": [
+                        -0.5,
+                        0,
+                        0
+                    ]
+                },
+                "pupil_left": {
+                    "position": [
+                        0,
+                        0,
+                        -0.25
+                    ]
+                },
+                "tube_neck_left": {
+                    "rotation": [
+                        2.54473,
+                        14.5427,
+                        11.92218
+                    ]
+                },
+                "tail": {
+                    "rotation": [
+                        -6.75675,
+                        -15.29185,
+                        -0.75747
+                    ]
+                },
+                "tail2": {
+                    "rotation": [
+                        39.53113,
+                        -15.29313,
+                        -16.59027
+                    ]
+                },
+                "tail3": {
+                    "rotation": [
+                        27.1575,
+                        -27.70439,
+                        -3.57459
+                    ]
+                },
+                "tail4": {
+                    "rotation": [
+                        43.24151,
+                        -16.84169,
+                        0.39277
+                    ]
+                },
+                "tube_neck_right": {
+                    "rotation": [
+                        7.5,
+                        0,
+                        15
+                    ]
+                },
+                "tube_mid_right": {
+                    "rotation": [
+                        -22.5,
+                        0,
+                        0
+                    ]
+                },
+                "shoulder_left": {
+                    "rotation": [
+                        0,
+                        -7.5,
+                        35
+                    ]
+                },
+                "elbow_left": {
+                    "rotation": [
+                        -10,
+                        40,
+                        0
+                    ]
+                },
+                "wrist_left_rotate": {
+                    "rotation": [
+                        -12.5,
+                        0,
+                        0
+                    ]
+                },
+                "thumb_left": {
+                    "rotation": [
+                        54.31282,
+                        8.8035,
+                        -8.9093
+                    ]
+                },
+                "thumb2_left": {
+                    "rotation": [
+                        32.5,
+                        0,
+                        0
+                    ]
+                },
+                "thumb3_left": {
+                    "rotation": [
+                        35,
+                        0,
+                        0
+                    ]
+                },
+                "middlefinger_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        22.5
+                    ]
+                },
+                "middlefinger2_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        35
+                    ]
+                },
+                "middlefinger3_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        27.5
+                    ]
+                },
+                "pinkie_left": {
+                    "rotation": [
+                        -10.08453,
+                        -7.3854,
+                        36.3096
+                    ]
+                },
+                "pinkie2_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        45
+                    ]
+                },
+                "pinkie3_left": {
+                    "rotation": [
+                        0,
+                        0,
+                        20
+                    ]
+                },
+                "leg_left": {
+                    "rotation": [
+                        -1.86683,
+                        -31.7418,
+                        -28.9836
+                    ]
+                },
+                "knee_left": {
+                    "rotation": [
+                        0,
+                        10,
+                        0
+                    ]
+                },
+                "ankle_left": {
+                    "rotation": [
+                        7.82273,
+                        3.52107,
+                        5.1562
+                    ]
+                },
+                "foot_left": {
+                    "rotation": [
+                        19.71975,
+                        -3.4049,
+                        9.408
+                    ]
+                },
+                "foot_thumb_left": {
+                    "rotation": [
+                        -13.84583,
+                        -21.38697,
+                        -37.34317
+                    ]
+                },
+                "foot_thumb_left2": {
+                    "rotation": [
+                        0,
+                        0,
+                        2.5
+                    ]
+                },
+                "foot_thumb_left3": {
+                    "rotation": [
+                        0,
+                        0,
+                        30
+                    ]
+                },
+                "toe_left_right": {
+                    "rotation": [
+                        -342.02116,
+                        -11.66655,
+                        -1.78888
+                    ]
+                },
+                "toe_bend_left_right": {
+                    "rotation": [
+                        -5,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_left_right": {
+                    "rotation": [
+                        -27.2127,
+                        2.6851,
+                        12.2127
+                    ]
+                },
+                "toe_left_left": {
+                    "rotation": [
+                        8.76924,
+                        6.9518,
+                        8.0651
+                    ]
+                },
+                "toe_bend_left_left": {
+                    "rotation": [
+                        -10,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_left_left": {
+                    "rotation": [
+                        -22.5,
+                        0,
+                        0
+                    ]
+                },
+                "shoulder_right": {
+                    "rotation": [
+                        -11.027,
+                        11.04782,
+                        -38.38895
+                    ]
+                },
+                "elbow_right": {
+                    "rotation": [
+                        11.02654,
+                        -51.7932,
+                        -11.89002
+                    ]
+                },
+                "wrist_right_rotate": {
+                    "rotation": [
+                        -17.5,
+                        0,
+                        0
+                    ]
+                },
+                "thumb_right": {
+                    "rotation": [
+                        54.31282,
+                        -8.80348,
+                        8.90928
+                    ]
+                },
+                "thumb2_right": {
+                    "rotation": [
+                        32.5,
+                        0,
+                        0
+                    ]
+                },
+                "thumb3_right": {
+                    "rotation": [
+                        35,
+                        0,
+                        0
+                    ]
+                },
+                "middlefinger_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -22.5
+                    ]
+                },
+                "middlefinger2_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -35
+                    ]
+                },
+                "middlefinger3_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -27.5
+                    ]
+                },
+                "pinkie_right": {
+                    "rotation": [
+                        -10.08453,
+                        7.38542,
+                        -36.30962
+                    ]
+                },
+                "pinkie2_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -45
+                    ]
+                },
+                "pinkie3_right": {
+                    "rotation": [
+                        0,
+                        0,
+                        -20
+                    ]
+                },
+                "leg_right": {
+                    "rotation": [
+                        -5.07555,
+                        29.77813,
+                        20.42694
+                    ]
+                },
+                "knee_right": {
+                    "rotation": [
+                        12.54556,
+                        8.0764,
+                        -3.998
+                    ]
+                },
+                "ankle_right": {
+                    "rotation": [
+                        -7.5,
+                        0,
+                        0
+                    ]
+                },
+                "foot_right": {
+                    "rotation": [
+                        19.69364,
+                        3.31313,
+                        -12.03294
+                    ]
+                },
+                "foot_thumb_right": {
+                    "rotation": [
+                        -8.38129,
+                        13.0394,
+                        44.60082
+                    ]
+                },
+                "foot_thumb_right2": {
+                    "rotation": [
+                        0,
+                        0,
+                        -12.5
+                    ]
+                },
+                "foot_thumb_right3": {
+                    "rotation": [
+                        0,
+                        0,
+                        -15
+                    ]
+                },
+                "toe_left_right2": {
+                    "rotation": [
+                        5,
+                        7.5,
+                        -2
+                    ]
+                },
+                "toe_bend_left_right2": {
+                    "rotation": [
+                        -10,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_left_right2": {
+                    "rotation": [
+                        -5,
+                        0,
+                        0
+                    ]
+                },
+                "toe_right_left": {
+                    "rotation": [
+                        5,
+                        -7.5,
+                        2
+                    ]
+                },
+                "toe_bend_right_left": {
+                    "rotation": [
+                        -10,
+                        0,
+                        0
+                    ]
+                },
+                "toe_tip_right_left": {
+                    "rotation": [
+                        -5,
+                        0,
+                        0
+                    ]
+                },
+                "tube_mid_left": {
+                    "rotation": [
+                        -5,
+                        0,
+                        0
+                    ]
+                }
+            }
+        }
+    }
+}

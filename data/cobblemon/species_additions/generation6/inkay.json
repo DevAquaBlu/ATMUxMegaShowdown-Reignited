@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:inkay",
+  "implemented": true,
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.9,
+    "fixed": false
+  }
+}

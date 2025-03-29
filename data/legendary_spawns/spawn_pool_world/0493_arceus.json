@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "arceus-1",
+            "pokemon": "arceus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "85",
+            "weight": 0.125,
+            "weightMultipliers": [
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "timeRange": "12000-13400"
+                    }
+                },
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "isRaining": true
+                    }
+                },
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "isThundering": true
+                    }
+                },
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "minY": 128
+                    }
+                },
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "minY": 208
+                    }
+                }
+            ],
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

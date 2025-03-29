@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:palpitoad",
+  "implemented": true,
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 0.85,
+    "height": 1.05,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.157
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

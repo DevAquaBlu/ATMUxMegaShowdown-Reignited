@@ -1,0 +1,109 @@
+{
+    "portraitScale": 1.83,
+    "portraitTranslation": [
+        -0.37,
+        -0.33,
+        0
+    ],
+    "profileScale": 0.91,
+    "profileTranslation": [
+        -0.02,
+        0.35,
+        0
+    ],
+    "rootBone": "eevee2",
+    "animations": {
+        "faint": "q.bedrock_primary('eevee2', 'sleep')",
+        "cry": "q.bedrock_stateful('eevee2', 'cry')",
+        "recoil": "q.bedrock_stateful('eevee2', 'cry')",
+        "physical": "q.bedrock_stateful('eevee2', 'cry', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_primary('eevee2', 'special', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_primary('eevee2', 'special', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+        "battle-standing": {
+            "poseTypes": [
+                "STAND"
+            ],
+            "isBattle": true,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('eevee2', 'battle_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('eevee2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE",
+                "FLOAT"
+            ],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('eevee2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('eevee2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "walking": {
+            "poseTypes": [
+                "WALK",
+                "SWIM"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('eevee2', 'ground_walk')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('eevee2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "sleep": {
+            "poseTypes": [
+                "SLEEP"
+            ],
+            "animations": [
+                "q.bedrock('eevee2', 'sleep')",
+                "q.bedrock('eevee2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "shoulder_right": {
+            "poseTypes": [
+                "SHOULDER_RIGHT"
+            ],
+            "animations": [
+                "q.bedrock('eevee2', 'shoulder_right')",
+                "q.bedrock('eevee2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('eevee2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "shoulder_left": {
+            "poseTypes": [
+                "SHOULDER_LEFT"
+            ],
+            "animations": [
+                "q.bedrock('eevee2', 'shoulder_left')",
+                "q.bedrock('eevee2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('eevee2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        }
+    }
+}

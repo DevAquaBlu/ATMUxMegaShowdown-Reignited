@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:cursola",
+  "implemented": true,
+  "baseScale": 0.8,
+  "behaviour": {
+  "moving": {
+    "canLook": false,
+	"walk": {
+	  "walkSpeed": 0.2,
+      "canWalk": true,
+      "avoidsLand": false
+	},
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": true
+      }
+    }
+  }
+}

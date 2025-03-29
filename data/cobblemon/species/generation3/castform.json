@@ -1,0 +1,346 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 351,
+  "name": "Castform",
+  "primaryType": "normal",
+  "maleRatio": 0.5,
+  "height": 3,
+  "weight": 8,
+  "pokedex": [
+    "cobblemon.species.castform.desc"
+  ],
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [
+    "normal-form"
+  ],
+  "abilities": [
+    "simple",
+    "h:simple"
+  ],
+  "eggGroups": [
+    "fairy",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "10:watergun",
+    "10:ember",
+    "10:powdersnow",
+    "15:headbutt",
+    "20:raindance",
+    "20:sunnyday",
+    "20:snowscape",
+    "20:defog",
+    "25:weatherball",
+    "35:blizzard",
+    "35:fireblast",
+    "35:hydropump",
+    "45:hurricane",
+    "egg:clearsmog",
+    "egg:disable",
+    "egg:luckychant",
+    "egg:reflecttype",
+    "tm:amnesia",
+    "tm:attract",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:confide",
+    "tm:cosmicpower",
+    "tm:defensecurl",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:frustration",
+    "tm:futuresight",
+    "tm:guardswap",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:lastresort",
+    "tm:mimic",
+    "tm:naturalgift",
+    "tm:ominouswind",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:return",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:workup",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:lastresort",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:tailwind",
+    "tutor:thunderbolt",
+    "tutor:waterpulse"
+  ],
+  "evolutions": [
+    {
+      "id": "castform_castformsunny",
+      "variant": "level_up",
+      "result": "castform forecast_form=sunny",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "sunnyday"
+        }
+      ]
+    },
+    {
+      "id": "castform_castformrainy",
+      "variant": "level_up",
+      "result": "castform forecast_form=rainy",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "raindance"
+        }
+      ]
+    },
+    {
+      "id": "castform_castformsnowy",
+      "variant": "level_up",
+      "result": "castform forecast_form=snowy",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "snowscape"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Sunny",
+      "primaryType": "fire",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 8,
+      "pokedex": [
+        "cobblemon.species.castform-sunny.desc"
+      ],
+      "labels": [
+        "gen4"
+      ],
+      "aspects": [
+        "sunny-form"
+      ],
+      "abilities": [
+        "drought",
+        "h:drought"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:heat_rock",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "evolutions": [
+        {
+          "id": "castformsunny_castform",
+          "variant": "level_up",
+          "result": "castform forecast_form=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "defog"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Rainy",
+      "primaryType": "water",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 8,
+      "pokedex": [
+        "cobblemon.species.castform-rainy.desc"
+      ],
+      "labels": [
+        "gen4"
+      ],
+      "aspects": [
+        "rainy-form"
+      ],
+      "abilities": [
+        "drizzle",
+        "h:drizzle"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:damp_rock",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "evolutions": [
+        {
+          "id": "castformrainy_castform",
+          "variant": "level_up",
+          "result": "castform forecast_form=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "defog"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Snowy",
+      "primaryType": "ice",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 8,
+      "pokedex": [
+        "cobblemon.species.castform-snowy.desc"
+      ],
+      "labels": [
+        "gen4"
+      ],
+      "aspects": [
+        "snowy-form"
+      ],
+      "abilities": [
+        "snowwarning",
+        "h:snowwarning"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:icy_rock",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "evolutions": [
+        {
+          "id": "castformsnowy_castform",
+          "variant": "level_up",
+          "result": "castform forecast_form=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "defog"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

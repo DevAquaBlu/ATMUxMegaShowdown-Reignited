@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:tympole",
+  "implemented": true,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.85,
+    "height": 0.55,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.127
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+    "portraitScale": 1.71,
+    "portraitTranslation": [
+        -0.41,
+        0.29,
+        0
+    ],
+    "profileScale": 0.71,
+    "profileTranslation": [
+        0.03,
+        0.53,
+        0
+    ],
+    "rootBone": "vaporeon2",
+    "animations": {
+        "cry": "q.bedrock_stateful('vaporeon2', 'cry')",
+        "recoil": "q.bedrock_stateful('vaporeon2', 'cry')",
+        "physical": "q.bedrock_stateful('vaporeon2', 'cry', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_stateful('vaporeon2', 'cry', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_stateful('vaporeon2', 'cry', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('vaporeon2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('vaporeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "walking": {
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('vaporeon2', 'ground_walk')",
+                "q.bedrock('vaporeon2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('vaporeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "float": {
+            "poseTypes": [
+                "FLOAT"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('vaporeon2', 'water_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('vaporeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "swim": {
+            "poseTypes": [
+                "SWIM"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('vaporeon2', 'water_swim')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('vaporeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "target": "cobblemon:gliscor",
+  "hitbox": {
+    "width": 1.5,
+    "height": 1.7,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  }
+}

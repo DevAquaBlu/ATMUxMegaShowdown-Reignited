@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:mrrime",
+  "implemented": true,
+  "baseScale": 0.725,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2,
+    "fixed": false
+  }
+}

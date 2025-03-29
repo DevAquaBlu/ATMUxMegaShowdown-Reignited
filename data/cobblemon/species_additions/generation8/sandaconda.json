@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:sandaconda",
+  "implemented": true,
+  "baseScale": 1.05,
+  "hitbox": {
+    "width": 1.35,
+    "height": 1.05,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  }
+}

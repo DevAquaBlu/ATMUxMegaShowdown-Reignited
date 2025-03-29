@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:swirlix",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.85,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  }
+}

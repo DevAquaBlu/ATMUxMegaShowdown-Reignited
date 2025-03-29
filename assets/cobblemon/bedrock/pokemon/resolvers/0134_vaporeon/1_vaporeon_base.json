@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:vaporeon",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:vaporeon2",
+            "model": "cobblemon:vaporeon2.geo",
+            "texture": "cobblemon:textures/pokemon/0134_vaporeon/vaporeon.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0134_vaporeon/vaporeon_shiny.png"
+        }
+    ]
+}

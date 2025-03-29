@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:mienfoo",
+  "implemented": true,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.85,
+    "height": 1,
+    "fixed": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "target": "cobblemon:lugia",
+  "implemented": true,
+  "hitbox": {
+    "width": 3,
+    "height": 5.25,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  },
+  "evolutions": [
+    {
+      "id": "lugia_lugiashadow",
+      "variant": "item_interact",
+      "result": "lugia shadow",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone"
+    }
+  ],
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

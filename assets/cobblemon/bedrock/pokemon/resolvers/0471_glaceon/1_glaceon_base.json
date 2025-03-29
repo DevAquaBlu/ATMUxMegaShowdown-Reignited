@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:glaceon",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:glaceon2",
+            "model": "cobblemon:glaceon2.geo",
+            "texture": "cobblemon:textures/pokemon/0471_glaceon/glaceon.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0471_glaceon/glaceon_shiny.png"
+        }
+    ]
+}

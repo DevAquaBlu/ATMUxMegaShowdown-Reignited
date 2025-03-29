@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:zapdos",
+    "order": 1,
+    "variations": [
+        {
+            "poser": "cobblemon:zapdos",
+            "model": "cobblemon:zapdos2.geo",
+            "texture": "cobblemon:textures/pokemon/0145_zapdos/zapdos.png"
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0145_zapdos/zapdos_shiny.png"
+        }
+    ]
+}

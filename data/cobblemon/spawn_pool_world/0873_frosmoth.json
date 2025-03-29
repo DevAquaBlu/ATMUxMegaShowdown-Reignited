@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "frosmoth-1",
+            "pokemon": "frosmoth",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "37-63",
+            "weight": 2.2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        }
+    ]
+}

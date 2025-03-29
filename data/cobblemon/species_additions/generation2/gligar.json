@@ -1,0 +1,15 @@
+{
+  "target": "cobblemon:gligar",
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  }
+}

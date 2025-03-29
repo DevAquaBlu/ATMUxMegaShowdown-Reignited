@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pecharunt-1",
+            "pokemon": "pecharunt",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "88",
+            "weight": 1.5,
+            "weightMultipliers": [
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "neededNearbyBlocks": [
+                            "minecraft:composter"
+                        ]
+                    }
+                }
+            ],
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

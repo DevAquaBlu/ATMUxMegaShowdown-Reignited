@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:meditite",
+  "implemented": true,
+  "baseScale": 0.6,
+  "behaviour": {
+    "moving": {
+	  "fly": {
+        "canFly": true
+      }
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.terapagos.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [-5, 0, 0]
+				},
+				"neck": {
+					"rotation": [-30, 0, 0]
+				},
+				"neck2": {
+					"rotation": [-35, 0, 0]
+				},
+				"head": {
+					"rotation": [62.36032, -12.3619, -30.66947]
+				},
+				"crystal_1": {
+					"rotation": [-40, 0, 0]
+				},
+				"crystal_2": {
+					"rotation": [-35, 0, 0]
+				},
+				"crystal_3": {
+					"rotation": [-20, 0, 0]
+				},
+				"neck_band": {
+					"rotation": [12.5, 0, 0]
+				},
+				"leg_front_right": {
+					"rotation": [35.26439, -30, -54.73561]
+				},
+				"leg_front_right2": {
+					"rotation": [0, 0, -45]
+				},
+				"leg_front_left": {
+					"rotation": [35.26439, 30, 54.7356]
+				},
+				"leg_front_left2": {
+					"rotation": [0, 0, 45]
+				},
+				"leg_back_right3": {
+					"rotation": [-35.26439, 30, -54.73561]
+				},
+				"leg_back_right4": {
+					"rotation": [0, 0, -45]
+				},
+				"leg_back_left3": {
+					"rotation": [-35.26439, -30, 54.73561]
+				},
+				"leg_back_left4": {
+					"rotation": [0, 0, 45]
+				},
+				"tail4": {
+					"rotation": [17.5, 0, 0]
+				},
+				"tail3": {
+					"rotation": [13.4936, 21.93857, 5.123]
+				},
+				"tail2": {
+					"rotation": [22.30998, 25.71543, 10.09541]
+				},
+				"tail": {
+					"rotation": [-12.79362, -12.19908, 2.74715]
+				}
+			}
+		},
+		"animation.terapagos.shoulder_right": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [-5, 0, 0]
+				},
+				"neck": {
+					"rotation": [2.5, 0, 0]
+				},
+				"neck2": {
+					"rotation": [-38.28761, 22.22485, -16.62484]
+				},
+				"head": {
+					"rotation": [76.72461, -27.67082, -21.60676]
+				},
+				"crystal_1": {
+					"rotation": [-40, 0, 0]
+				},
+				"crystal_2": {
+					"rotation": [-35, 0, 0]
+				},
+				"crystal_3": {
+					"rotation": [-20, 0, 0]
+				},
+				"neck_band": {
+					"rotation": [12.5, 0, 0]
+				},
+				"leg_front_right": {
+					"rotation": [47.21877, -52.99473, -68.62688]
+				},
+				"leg_front_right2": {
+					"rotation": [0, 0, -45]
+				},
+				"leg_front_left": {
+					"rotation": [1.91263, 22.46145, 2.49929]
+				},
+				"leg_front_left2": {
+					"rotation": [0, 0, 45]
+				},
+				"leg_back_right3": {
+					"rotation": [-35.26439, 30, -54.73561]
+				},
+				"leg_back_right4": {
+					"rotation": [0, 0, -45]
+				},
+				"leg_back_left3": {
+					"rotation": [-35.26439, -30, 54.73561]
+				},
+				"leg_back_left4": {
+					"rotation": [0, 0, 45]
+				},
+				"tail4": {
+					"rotation": [17.5, 0, 0]
+				},
+				"tail3": {
+					"rotation": [13.4936, 21.93857, 5.123]
+				},
+				"tail2": {
+					"rotation": [22.30998, 25.71543, 10.09541]
+				},
+				"tail": {
+					"rotation": [-12.79362, -12.19908, 2.74715]
+				},
+				"body": {
+					"rotation": [-40, -17.5, 0],
+					"position": [-3, -8, 0]
+				}
+			}
+		},
+		"animation.terapagos.shoulder_left": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [-5, 0, 0]
+				},
+				"neck": {
+					"rotation": [2.5, 0, 0]
+				},
+				"neck2": {
+					"rotation": [-38.28761, -22.22485, 16.62484]
+				},
+				"head": {
+					"rotation": [76.72461, 27.67082, 21.60676]
+				},
+				"crystal_1": {
+					"rotation": [-40, 0, 0]
+				},
+				"crystal_2": {
+					"rotation": [-35, 0, 0]
+				},
+				"crystal_3": {
+					"rotation": [-20, 0, 0]
+				},
+				"neck_band": {
+					"rotation": [12.5, 0, 0]
+				},
+				"leg_front_right": {
+					"rotation": [9.73768, -7.42914, 1.50232]
+				},
+				"leg_front_right2": {
+					"rotation": [0, 0, -45]
+				},
+				"leg_front_left": {
+					"rotation": [-8.49181, 48.01907, 23.27004]
+				},
+				"leg_front_left2": {
+					"rotation": [0, 0, 60]
+				},
+				"leg_back_right3": {
+					"rotation": [-35.26439, 30, -54.73561]
+				},
+				"leg_back_right4": {
+					"rotation": [0, 0, -45]
+				},
+				"leg_back_left3": {
+					"rotation": [-35.26439, -30, 54.73561]
+				},
+				"leg_back_left4": {
+					"rotation": [0, 0, 45]
+				},
+				"tail4": {
+					"rotation": [17.5, 0, 0]
+				},
+				"tail3": {
+					"rotation": [13.4936, 21.93857, 5.123]
+				},
+				"tail2": {
+					"rotation": [22.30998, 25.71543, 10.09541]
+				},
+				"tail": {
+					"rotation": [-12.79362, -12.19908, 2.74715]
+				},
+				"body": {
+					"rotation": [-40, 17.5, 0],
+					"position": [3, -8, 0]
+				}
+			}
+		}
+	}
+}

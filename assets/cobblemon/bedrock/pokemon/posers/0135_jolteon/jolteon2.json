@@ -1,0 +1,56 @@
+{
+    "portraitScale": 1.71,
+    "portraitTranslation": [
+        -0.41,
+        0.18,
+        0
+    ],
+    "profileScale": 0.77,
+    "profileTranslation": [
+        -0.01,
+        0.45,
+        0
+    ],
+    "rootBone": "jolteon2",
+    "animations": {
+        "cry": "q.bedrock_stateful('jolteon2', 'cry')",
+        "recoil": "q.bedrock_stateful('jolteon2', 'cry')",
+        "physical": "q.bedrock_stateful('jolteon2', 'cry', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_stateful('jolteon2', 'cry', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_stateful('jolteon2', 'cry', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE",
+                "FLOAT"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('jolteon2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('jolteon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "walking": {
+            "poseTypes": [
+                "WALK",
+                "SWIM"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('jolteon2', 'ground_walk')",
+                "q.bedrock('jolteon2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('jolteon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        }
+    }
+}

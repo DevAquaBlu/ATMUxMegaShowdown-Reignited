@@ -1,0 +1,46 @@
+{
+  "target": "cobblemon:chiyu",
+  "implemented": true,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 0.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canWalkOnLava": true,
+        "canBreatheUnderlava": true,
+        "avoidsWater": true,
+        "canSwimInWater": false,
+        "canSwimInLava": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "cobblemon:black_glasses",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

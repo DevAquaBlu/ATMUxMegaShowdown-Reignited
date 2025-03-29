@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:spidops",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.42
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  }
+}

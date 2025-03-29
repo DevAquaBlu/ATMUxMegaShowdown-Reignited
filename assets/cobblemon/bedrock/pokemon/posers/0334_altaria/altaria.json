@@ -1,0 +1,101 @@
+{
+    "head": "head",
+    "portraitScale": 2.04,
+    "portraitTranslation": [
+        -0.45,
+        0.83,
+        0
+    ],
+    "profileScale": 0.49,
+    "profileTranslation": [
+        0,
+        0.97,
+        0
+    ],
+    "cry": "bedrock(altaria, cry)",
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "look",
+                "bedrock(altaria, ground_pose)",
+                "bedrock(altaria, ground_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(altaria, blink)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "look",
+                "bedrock(altaria, ground_pose)",
+                "bedrock(altaria, ground_walk)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(altaria, blink)"
+                    ]
+                }
+            ]
+        },
+        "hovering": {
+            "poseName": "hovering",
+            "transformTicks": 10,
+            "poseTypes": [
+                "HOVER"
+            ],
+            "animations": [
+                "bedrock(altaria_mega, air_idle)",
+                "bedrock(altaria, air_pose)",
+                "look"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(altaria, blink)"
+                    ]
+                }
+            ]
+        },
+        "flying": {
+            "poseName": "flying",
+            "transformTicks": 10,
+            "poseTypes": [
+                "FLY"
+            ],
+            "animations": [
+                "bedrock(altaria_mega, air_fly)",
+                "bedrock(altaria, air_pose)",
+                "look"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(altaria, blink)"
+                    ]
+                }
+            ]
+        }
+    }
+}

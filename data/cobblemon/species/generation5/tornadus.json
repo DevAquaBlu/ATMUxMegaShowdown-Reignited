@@ -1,0 +1,269 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 641,
+  "name": "Tornadus",
+  "primaryType": "flying",
+  "maleRatio": 1,
+  "height": 15,
+  "weight": 630,
+  "pokedex": [
+    "cobblemon.species.tornadus.desc"
+  ],
+  "labels": [
+    "gen5",
+    "legendary"
+  ],
+  "aspects": [
+    "incarnate-forme"
+  ],
+  "abilities": [
+    "prankster",
+    "h:defiant"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 125,
+    "special_defence": 80,
+    "speed": 111
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 290,
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 90,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1.6,
+    "height": 3.25,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:gust",
+    "5:leer",
+    "10:swagger",
+    "15:bite",
+    "20:aircutter",
+    "25:agility",
+    "30:tailwind",
+    "35:airslash",
+    "40:crunch",
+    "45:extrasensory",
+    "50:uproar",
+    "55:hammerarm",
+    "60:raindance",
+    "65:hurricane",
+    "70:thrash",
+    "77:bleakwindstorm",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:skydrop",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:snowscape",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:toxic",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:weatherball",
+    "tutor:aircutter",
+    "tutor:bulkup",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:superpower",
+    "tutor:tailwind",
+    "tutor:uproar"
+  ],
+  "evolutions": [
+    {
+      "id": "tornadus_tornadustherian",
+      "variant": "level_up",
+      "result": "tornadus mirror_forme=therian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:amethyst_shard"
+        }          
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Therian",
+      "primaryType": "flying",
+      "maleRatio": 1,
+      "height": 14,
+      "weight": 630,
+      "pokedex": [
+        "cobblemon.species.tornadus-therian.desc"
+      ],
+      "labels": [
+        "gen5",
+        "legendary"
+      ],
+      "aspects": [
+        "therian-forme"
+      ],
+      "abilities": [
+        "regenerator",
+        "h:regenerator"
+      ],
+      "baseStats": {
+        "hp": 79,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 110,
+        "special_defence": 90,
+        "speed": 121
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "evolutions": [
+        {
+          "id": "tornadustherian_tornadus",
+          "variant": "level_up",
+          "result": "tornadus mirror_forme=incarnate",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:amethyst_shard"
+            }          
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

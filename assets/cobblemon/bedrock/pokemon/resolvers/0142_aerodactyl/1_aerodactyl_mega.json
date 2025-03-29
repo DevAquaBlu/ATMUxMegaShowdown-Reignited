@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:aerodactyl",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [
+                "mega"
+            ],
+            "poser": "cobblemon:aerodactyl",
+            "model": "cobblemon:aerodactyl_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactyl_mega.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "mega",
+                "shiny"
+            ],
+            "poser": "cobblemon:aerodactyl",
+            "model": "cobblemon:aerodactyl_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactyl_mega_shiny.png",
+            "layers": []
+        }
+    ]
+}

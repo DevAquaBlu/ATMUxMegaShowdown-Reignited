@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:togetic",
+  "implemented": true,
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1.8,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4"
+    }
+  }
+}

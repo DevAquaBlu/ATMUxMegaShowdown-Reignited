@@ -1,0 +1,721 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 800,
+  "name": "Necrozma",
+  "primaryType": "psychic",
+  "maleRatio": -1,
+  "height": 24,
+  "weight": 2300,
+  "pokedex": [
+    "cobblemon.species.necrozma.desc"
+  ],
+  "labels": [
+    "gen7",
+    "legendary",
+    "restricted"
+  ],
+  "aspects": [
+    "none-fusion"
+  ],
+  "abilities": [
+    "prismarmor",
+    "h:prismarmor"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 97,
+    "attack": 107,
+    "defence": 101,
+    "special_attack": 127,
+    "special_defence": 89,
+    "speed": 79
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "eggCycles": 120,
+  "baseFriendship": 0,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 2.25,
+    "height": 6,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    },
+    "resting": {
+      "canSleep": true
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 75.0
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:moonlight",
+    "1:morningsun",
+    "1:chargebeam",
+    "1:mirrorshot",
+    "1:metalclaw",
+    "1:confusion",
+    "1:gravity",
+    "1:wringout",
+    "8:stealthrock",
+    "16:slash",
+    "24:nightslash",
+    "32:psychocut",
+    "40:storedpower",
+    "48:rockblast",
+    "56:irondefense",
+    "64:powergem",
+    "72:photongeyser",
+    "80:autotomize",
+    "88:prismaticlaser",
+    "tm:aerialace",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confide",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:frustration",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:metalclaw",
+    "tm:meteorbeam",
+    "tm:outrage",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychocut",
+    "tm:psyshock",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:expandingforce",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:outrage",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:xscissor"
+  ],
+  "evolutions": [
+    {
+      "id": "necrozma_necrozmaduskmane",
+      "variant": "level_up",
+      "result": "necrozma prism_fusion=dusk",
+      "consumeHeldItem": false,
+      "learnableMoves": ["sunsteelstrike"],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "solgaleo",
+          "contains": true
+        }
+      ]
+    },
+    {
+      "id": "necrozma_necrozmadawnwings",
+      "variant": "level_up",
+      "result": "necrozma prism_fusion=dawn",
+      "consumeHeldItem": false,
+      "learnableMoves": ["moongeistbeam"],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "lunala",
+          "contains": true
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Dusk-Mane",
+      "primaryType": "psychic",
+      "secondaryType": "steel",
+      "maleRatio": -1,
+      "height": 38,
+      "weight": 4600,
+      "baseScale": 0.85,
+      "hitbox": {
+        "width": 3.5,
+        "height": 4.25,
+        "fixed": false
+      },
+      "pokedex": [
+        "cobblemon.species.necrozma-duskmane.desc"
+      ],
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted"
+      ],
+      "aspects": [
+        "dusk-fusion"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 157,
+        "defence": 127,
+        "special_attack": 113,
+        "special_defence": 109,
+        "speed": 77
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 340,
+      "moves": [
+        "1:moonlight",
+        "1:morningsun",
+        "1:chargebeam",
+        "1:mirrorshot",
+        "1:metalclaw",
+        "1:confusion",
+        "1:gravity",
+        "1:wringout",
+        "8:stealthrock",
+        "16:slash",
+        "24:nightslash",
+        "32:psychocut",
+        "40:storedpower",
+        "48:rockblast",
+        "56:irondefense",
+        "64:powergem",
+        "72:photongeyser",
+        "80:autotomize",
+        "88:prismaticlaser",
+        "tm:aerialace",
+        "tm:allyswitch",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dragondance",
+        "tm:dragonpulse",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:embargo",
+        "tm:endure",
+        "tm:expandingforce",
+        "tm:facade",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:futuresight",
+        "tm:gigaimpact",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:heatwave",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:metalclaw",
+        "tm:meteorbeam",
+        "tm:outrage",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychocut",
+        "tm:psyshock",
+        "tm:recycle",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockblast",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:shadowclaw",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smartstrike",
+        "tm:solarbeam",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:sunsteelstrike",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trickroom",
+        "tm:xscissor",
+        "tutor:aerialace",
+        "tutor:allyswitch",
+        "tutor:bulldoze",
+        "tutor:calmmind",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:dragonpulse",
+        "tutor:earthpower",
+        "tutor:expandingforce",
+        "tutor:flashcannon",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:heatwave",
+        "tutor:hyperbeam",
+        "tutor:hypervoice",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:magnetrise",
+        "tutor:meteorbeam",
+        "tutor:outrage",
+        "tutor:psychic",
+        "tutor:psychocut",
+        "tutor:recycle",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:shadowclaw",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:stoneedge",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:trick",
+        "tutor:xscissor"
+      ],
+      "evolutions": [
+        {
+          "id": "necrozmaduskmane_necrozmaultra",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=ultra",
+          "consumeHeldItem": false,
+          "learnableMoves": ["photongeyser"],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:beacon"
+            }
+          ]
+        },
+        {
+          "id": "necrozmaduskmane_necrozma",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=none",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "party_member",
+              "target": "solgaleo",
+              "contains": true
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Dawn-Wings",
+      "primaryType": "psychic",
+      "secondaryType": "ghost",
+      "maleRatio": -1,
+      "height": 42,
+      "weight": 3500,
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 3,
+        "height": 4.75,
+        "fixed": false
+      },
+      "pokedex": [
+        "cobblemon.species.necrozma-dawnwings.desc"
+      ],
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted"
+      ],
+      "aspects": [
+        "dawn-fusion"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 113,
+        "defence": 109,
+        "special_attack": 157,
+        "special_defence": 127,
+        "speed": 77
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 340,
+      "moves": [
+        "1:moonlight",
+        "1:morningsun",
+        "1:chargebeam",
+        "1:mirrorshot",
+        "1:metalclaw",
+        "1:confusion",
+        "1:autotomize",
+        "1:wringout",
+        "8:stealthrock",
+        "16:slash",
+        "24:nightslash",
+        "32:psychocut",
+        "40:storedpower",
+        "48:rockblast",
+        "56:irondefense",
+        "64:powergem",
+        "72:photongeyser",
+        "80:gravity",
+        "88:prismaticlaser",
+        "tm:aerialace",
+        "tm:allyswitch",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dragondance",
+        "tm:dragonpulse",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:embargo",
+        "tm:endure",
+        "tm:expandingforce",
+        "tm:facade",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:futuresight",
+        "tm:gigaimpact",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:heatwave",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:imprison",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:metalclaw",
+        "tm:meteorbeam",
+        "tm:moongeistbeam",
+        "tm:outrage",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychocut",
+        "tm:psyshock",
+        "tm:recycle",
+        "tm:reflect",
+        "tm:rest",
+        "tm:rockblast",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:shadowclaw",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:smartstrike",
+        "tm:solarbeam",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trickroom",
+        "tm:xscissor",
+        "tutor:aerialace",
+        "tutor:allyswitch",
+        "tutor:bulldoze",
+        "tutor:calmmind",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:dragonpulse",
+        "tutor:earthpower",
+        "tutor:expandingforce",
+        "tutor:flashcannon",
+        "tutor:gigaimpact",
+        "tutor:gravity",
+        "tutor:heatwave",
+        "tutor:hyperbeam",
+        "tutor:hypervoice",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:magnetrise",
+        "tutor:meteorbeam",
+        "tutor:outrage",
+        "tutor:psychic",
+        "tutor:psychocut",
+        "tutor:recycle",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:shadowclaw",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:stoneedge",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:trick",
+        "tutor:xscissor"
+      ],
+      "evolutions": [
+        {
+          "id": "necrozmadawnwings_necrozmaultra",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=ultra",
+          "consumeHeldItem": false,
+          "learnableMoves": ["photongeyser"],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:beacon"
+            }
+          ]
+        },
+        {
+          "id": "necrozmadawnwings_necrozma",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=none",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "party_member",
+              "target": "lunala",
+              "contains": true
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Ultra",
+      "primaryType": "psychic",
+      "secondaryType": "dragon",
+      "maleRatio": -1,
+      "height": 75,
+      "weight": 2300,
+      "baseScale": 1,
+      "hitbox": {
+        "width": 3.25,
+        "height": 9,
+        "fixed": false
+      },
+      "pokedex": [
+        "cobblemon.species.necrozma-ultra.desc"
+      ],
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted",
+        "ultra_burst"
+      ],
+      "aspects": [
+        "ultra-fusion"
+      ],
+      "abilities": [
+        "neuroforce",
+        "h:neuroforce"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 167,
+        "defence": 97,
+        "special_attack": 167,
+        "special_defence": 97,
+        "speed": 129
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "baseExperienceYield": 377,
+      "catchRate": 255,
+      "dynamaxBlocked": true,
+      "evolutions": [
+        {
+          "id": "necrozmaultra_necrozma",
+          "variant": "level_up",
+          "result": "necrozma prism_fusion=none",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:beacon"
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

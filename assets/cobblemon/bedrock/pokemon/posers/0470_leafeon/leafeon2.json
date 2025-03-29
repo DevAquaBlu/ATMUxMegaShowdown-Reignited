@@ -1,0 +1,56 @@
+{
+    "portraitScale": 1.71,
+    "portraitTranslation": [
+        -0.41,
+        0.3,
+        0
+    ],
+    "profileScale": 0.73,
+    "profileTranslation": [
+        0.05,
+        0.66,
+        0
+    ],
+    "rootBone": "leafeon2",
+    "animations": {
+        "cry": "q.bedrock_stateful('leafeon2', 'cry')",
+        "recoil": "q.bedrock_stateful('leafeon2', 'cry')",
+        "physical": "q.bedrock_stateful('leafeon2', 'cry', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_stateful('leafeon2', 'cry', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_stateful('leafeon2', 'cry', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE",
+                "FLOAT"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('leafeon2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('leafeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        },
+        "walking": {
+            "poseTypes": [
+                "WALK",
+                "SWIM"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('leafeon2', 'ground_walk')",
+                "q.bedrock('leafeon2', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('leafeon2', 'blink')",
+                "q.bedrock_quirk('eevee2', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+            ]
+        }
+    }
+}
