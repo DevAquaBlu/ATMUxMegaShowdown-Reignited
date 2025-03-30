@@ -1,24 +1,24 @@
 {
     "species": "cobblemon:necrozma",
-    "order": 2,
+    "order": 1,
     "variations": [
         {
             "aspects": [
                 "dawn-fusion"
             ],
-            "poser": "cobblemon:dawn_wings",
-            "model": "cobblemon:dawn_wings.geo",
-            "texture": "cobblemon:textures/pokemon/0800_necrozma/dawnwings/dawn_wings.png",
+            "poser": "cobblemon:necrozma_dawnwings",
+            "model": "cobblemon:necrozma_dawnwings.geo",
+            "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/dawnwings/dawn_wings_emissive.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_emissive.png"
                 },
                 {
                     "name": "translucent",
                     "translucent": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/dawnwings/dawn_wings_transparency.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_transparency.png"
                 }
             ]
         },
@@ -27,17 +27,17 @@
                 "shiny",
                 "dawn-fusion"
             ],
-            "texture": "cobblemon:textures/pokemon/0800_necrozma/dawnwings/dawn_wings_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny.png",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/dawnwings/dawn_wings_shiny_emissive.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny_emissive.png"
                 },
                 {
                     "name": "translucent",
                     "translucent": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/dawnwings/dawn_wings_shiny_transparency.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny_transparency.png"
                 }
             ]
         }

@@ -6,19 +6,19 @@
             "aspects": [
                 "dusk-fusion"
             ],
-            "poser": "cobblemon:dusk_mane",
-            "model": "cobblemon:dusk_mane.geo",
-            "texture": "cobblemon:textures/pokemon/0800_necrozma/duskmane/dusk_mane.png",
+            "poser": "cobblemon:necrozma_duskmane",
+            "model": "cobblemon:necrozma_duskmane.geo",
+            "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane.png",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/duskmane/dusk_mane_emissive.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_emissive.png"
                 },
                 {
                     "name": "translucent",
                     "translucent": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/duskmane/dusk_mane_transparency.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_transparency.png"
                 }
             ]
         },
@@ -27,17 +27,17 @@
                 "shiny",
                 "dusk-fusion"
             ],
-            "texture": "cobblemon:textures/pokemon/0800_necrozma/duskmane/dusk_mane_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_shiny.png",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/duskmane/dusk_mane_shiny_emissive.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_shiny_emissive.png"
                 },
                 {
                     "name": "translucent",
                     "translucent": true,
-                    "texture": "cobblemon:textures/pokemon/0800_necrozma/duskmane/dusk_mane_shiny_transparency.png"
+                    "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_shiny_transparency.png"
                 }
             ]
         }
