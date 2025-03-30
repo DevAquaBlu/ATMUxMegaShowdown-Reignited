@@ -48,7 +48,7 @@
         },
 		{
             "aspects": [
-                "mega"
+                "mega",
 				"shiny"
             ],
             "poser": "cobblemon:gengar_mega",
