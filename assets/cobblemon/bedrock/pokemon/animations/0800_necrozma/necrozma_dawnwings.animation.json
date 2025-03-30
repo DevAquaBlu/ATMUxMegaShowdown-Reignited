@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.dawn_wings.ground_idle": {
+        "animation.necrozma_dawnwings.ground_idle": {
             "loop": true,
             "bones": {
                 "wing_left": {
@@ -293,7 +293,7 @@
                 }
             }
         },
-        "animation.dawn_wings.ground_idle2": {
+        "animation.necrozma_dawnwings.ground_idle2": {
             "loop": true,
             "bones": {
                 "wing_left": {
@@ -585,7 +585,7 @@
                 }
             }
         },
-        "animation.dawn_wings.ground_walk": {
+        "animation.necrozma_dawnwings.ground_walk": {
             "loop": true,
             "bones": {
                 "wing_left": {
@@ -912,7 +912,7 @@
                 }
             }
         },
-        "animation.dawn_wings.ground_walk2": {
+        "animation.necrozma_dawnwings.ground_walk2": {
             "loop": true,
             "bones": {
                 "wing_left": {
@@ -1239,7 +1239,7 @@
                 }
             }
         },
-        "animation.dawn_wings.air_idle": {
+        "animation.necrozma_dawnwings.air_idle": {
             "loop": true,
             "bones": {
                 "body": {
@@ -1494,7 +1494,7 @@
                 }
             }
         },
-        "animation.dawn_wings.air_fly": {
+        "animation.necrozma_dawnwings.air_fly": {
             "loop": true,
             "bones": {
                 "body": {
@@ -1756,7 +1756,7 @@
                 }
             }
         },
-        "animation.dawn_wings.sleep": {
+        "animation.necrozma_dawnwings.sleep": {
             "loop": true,
             "bones": {
                 "wing_left": {
@@ -2083,7 +2083,7 @@
                 }
             }
         },
-        "animation.dawn_wings.cry": {
+        "animation.necrozma_dawnwings.cry": {
             "animation_length": 2,
             "bones": {
                 "torso": {
@@ -3296,7 +3296,7 @@
                 }
             }
         },
-        "animation.dawn_wings.blink": {
+        "animation.necrozma_dawnwings.blink": {
             "animation_length": 0.2083,
             "bones": {
                 "sleeping_eye_right": {
@@ -3357,7 +3357,7 @@
                 }
             }
         },
-        "animation.dawn_wings.battle_idle": {
+        "animation.necrozma_dawnwings.battle_idle": {
             "loop": true,
             "bones": {
                 "wing_left": {
@@ -3649,7 +3649,7 @@
                 }
             }
         },
-        "animation.dawn_wings.physical": {
+        "animation.necrozma_dawnwings.physical": {
             "animation_length": 2,
             "bones": {
                 "wing_left": {
@@ -5321,7 +5321,7 @@
                 }
             }
         },
-        "animation.dawn_wings.special": {
+        "animation.necrozma_dawnwings.special": {
             "animation_length": 2,
             "bones": {
                 "wing_left": {
@@ -7011,7 +7011,7 @@
                 }
             }
         },
-        "animation.dawn_wings.status": {
+        "animation.necrozma_dawnwings.status": {
             "animation_length": 2,
             "bones": {
                 "wing_left": {
@@ -8390,7 +8390,7 @@
                 }
             }
         },
-        "animation.dawn_wings.recoil": {
+        "animation.necrozma_dawnwings.recoil": {
             "animation_length": 1.5,
             "bones": {
                 "chest": {
@@ -8581,7 +8581,7 @@
                 }
             }
         },
-        "animation.dawn_wings.faint_test": {
+        "animation.necrozma_dawnwings.faint_test": {
             "loop": true,
             "bones": {
                 "body": {
@@ -8778,7 +8778,7 @@
                 }
             }
         },
-        "animation.dawn_wings.pose": {
+        "animation.necrozma_dawnwings.pose": {
             "loop": true,
             "bones": {
                 "body": {

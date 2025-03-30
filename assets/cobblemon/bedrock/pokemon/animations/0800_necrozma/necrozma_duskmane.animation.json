@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.dusk_mane.ground_idle": {
+        "animation.necrozma_duskmane.ground_idle": {
             "loop": true,
             "bones": {
                 "body": {
@@ -617,7 +617,7 @@
                 }
             }
         },
-        "animation.dusk_mane.cry": {
+        "animation.necrozma_duskmane.cry": {
             "animation_length": 3.25,
             "bones": {
                 "body": {
@@ -3784,7 +3784,7 @@
                 }
             }
         },
-        "animation.dusk_mane.battle_idle": {
+        "animation.necrozma_duskmane.battle_idle": {
             "loop": true,
             "bones": {
                 "right_arm": {
@@ -4470,7 +4470,7 @@
                 }
             }
         },
-        "animation.dusk_mane.cry_battle": {
+        "animation.necrozma_duskmane.cry_battle": {
             "animation_length": 3.25,
             "bones": {
                 "torso": {
@@ -6756,7 +6756,7 @@
                 }
             }
         },
-        "animation.dusk_mane.ground_walk": {
+        "animation.necrozma_duskmane.ground_walk": {
             "loop": true,
             "animation_length": 1.3333,
             "bones": {
@@ -9342,7 +9342,7 @@
                 }
             }
         },
-        "animation.dusk_mane.blink": {
+        "animation.necrozma_duskmane.blink": {
             "animation_length": 0.1667,
             "bones": {
                 "eye_right": {
@@ -9382,7 +9382,7 @@
                 }
             }
         },
-        "animation.dusk_mane.sleep": {
+        "animation.necrozma_duskmane.sleep": {
             "loop": true,
             "bones": {
                 "body": {
@@ -10068,7 +10068,7 @@
                 }
             }
         },
-        "animation.dusk_mane.battle_pose": {
+        "animation.necrozma_duskmane.battle_pose": {
             "loop": true,
             "bones": {
                 "bone21": {
@@ -10805,7 +10805,7 @@
                 }
             }
         },
-        "animation.dusk_mane.physical": {
+        "animation.necrozma_duskmane.physical": {
             "animation_length": 2.0833,
             "bones": {
                 "bone21": {
@@ -15872,7 +15872,7 @@
                 }
             }
         },
-        "animation.dusk_mane.special": {
+        "animation.necrozma_duskmane.special": {
             "animation_length": 2.0833,
             "bones": {
                 "bone21": {
@@ -20775,7 +20775,7 @@
                 }
             }
         },
-        "animation.dusk_mane.status": {
+        "animation.necrozma_duskmane.status": {
             "animation_length": 3.25,
             "bones": {
                 "bone21": {
@@ -23359,7 +23359,7 @@
                 }
             }
         },
-        "animation.dusk_mane.recoil": {
+        "animation.necrozma_duskmane.recoil": {
             "animation_length": 1.5,
             "bones": {
                 "neck": {
@@ -23488,7 +23488,7 @@
                 }
             }
         },
-        "animation.dusk_mane.walk_test": {
+        "animation.necrozma_duskmane.walk_test": {
             "loop": true,
             "bones": {
                 "mightyena": {
@@ -23498,7 +23498,7 @@
                         "-q.anim_time*90*0.25"
                     ]
                 },
-                "dusk_mane": {
+                "necrozma_duskmane": {
                     "position": [
                         0,
                         0,
