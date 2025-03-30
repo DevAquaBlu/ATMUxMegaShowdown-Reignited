@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.deoxysdefense.pose": {
+		"animation.deoxys_defense.pose": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -96,7 +96,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.ground_idle": {
+		"animation.deoxys_defense.ground_idle": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -201,7 +201,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.ground_walk": {
+		"animation.deoxys_defense.ground_walk": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -312,7 +312,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.battle_stance": {
+		"animation.deoxys_defense.battle_stance": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -417,7 +417,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.sleep": {
+		"animation.deoxys_defense.sleep": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -539,7 +539,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.faint": {
+		"animation.deoxys_defense.faint": {
 			"loop": true,
 			"animation_length": 3.16667,
 			"bones": {
@@ -1429,7 +1429,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.cry": {
+		"animation.deoxys_defense.cry": {
 			"animation_length": 3,
 			"bones": {
 				"Lred1": {
@@ -2075,11 +2075,11 @@
 			},
 			"sound_effects": {
 				"0.75": {
-					"effect": "pokemon.deoxysdefense.cry"
+					"effect": "pokemon.deoxys_defense.cry"
 				}
 			}
 		},
-		"animation.deoxysdefense.recoil": {
+		"animation.deoxys_defense.recoil": {
 			"animation_length": 1.5,
 			"bones": {
 				"hips": {
@@ -2166,7 +2166,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.physical": {
+		"animation.deoxys_defense.physical": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -3572,7 +3572,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.special": {
+		"animation.deoxys_defense.special": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -4798,7 +4798,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.status": {
+		"animation.deoxys_defense.status": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -6024,7 +6024,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.goodbye": {
+		"animation.deoxys_defense.goodbye": {
 			"loop": true,
 			"animation_length": 7,
 			"bones": {
@@ -6149,7 +6149,7 @@
 				}
 			}
 		},
-		"animation.deoxysdefense.battle_base": {
+		"animation.deoxys_defense.battle_base": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {

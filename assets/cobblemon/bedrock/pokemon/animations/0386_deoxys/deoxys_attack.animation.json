@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.deoxysattack.pose": {
+		"animation.deoxys_attack.pose": {
 			"animation_length": 2.5,
 			"bones": {
 				"body": {
@@ -139,7 +139,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.ground_idle": {
+		"animation.deoxys_attack.ground_idle": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -311,7 +311,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.battle_stance": {
+		"animation.deoxys_attack.battle_stance": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -488,7 +488,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.ground_walk": {
+		"animation.deoxys_attack.ground_walk": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -691,7 +691,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.sleep": {
+		"animation.deoxys_attack.sleep": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -906,7 +906,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.faint": {
+		"animation.deoxys_attack.faint": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -1827,7 +1827,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.cry": {
+		"animation.deoxys_attack.cry": {
 			"animation_length": 3,
 			"bones": {
 				"Lred2": {
@@ -1985,11 +1985,11 @@
 			},
 			"sound_effects": {
 				"0.625": {
-					"effect": "pokemon.deoxysattack.cry"
+					"effect": "pokemon.deoxys_attack.cry"
 				}
 			}
 		},
-		"animation.deoxysattack.recoil": {
+		"animation.deoxys_attack.recoil": {
 			"animation_length": 1.5,
 			"bones": {
 				"body": {
@@ -2095,7 +2095,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.physical": {
+		"animation.deoxys_attack.physical": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -3902,7 +3902,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.special": {
+		"animation.deoxys_attack.special": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -5614,7 +5614,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.status": {
+		"animation.deoxys_attack.status": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -7326,7 +7326,7 @@
 				}
 			}
 		},
-		"animation.deoxysattack.battle_base": {
+		"animation.deoxys_attack.battle_base": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {

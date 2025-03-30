@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.deoxysspeed.pose": {
+		"animation.deoxys_speed.pose": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -82,7 +82,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.ground_idle": {
+		"animation.deoxys_speed.ground_idle": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -185,7 +185,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.ground_walk": {
+		"animation.deoxys_speed.ground_walk": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -294,7 +294,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.sleep": {
+		"animation.deoxys_speed.sleep": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -422,7 +422,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.faint": {
+		"animation.deoxys_speed.faint": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -991,7 +991,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.cry": {
+		"animation.deoxys_speed.cry": {
 			"animation_length": 3,
 			"bones": {
 				"Lred1": {
@@ -1477,11 +1477,11 @@
 			},
 			"sound_effects": {
 				"0.5833": {
-					"effect": "pokemon.deoxysspeed.cry"
+					"effect": "pokemon.deoxys_speed.cry"
 				}
 			}
 		},
-		"animation.deoxysspeed.recoil": {
+		"animation.deoxys_speed.recoil": {
 			"animation_length": 1.5,
 			"bones": {
 				"body": {
@@ -1553,7 +1553,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.battle_base": {
+		"animation.deoxys_speed.battle_base": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -1648,7 +1648,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.physical": {
+		"animation.deoxys_speed.physical": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -2718,7 +2718,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.special": {
+		"animation.deoxys_speed.special": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -4046,7 +4046,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.status": {
+		"animation.deoxys_speed.status": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -5374,7 +5374,7 @@
 				}
 			}
 		},
-		"animation.deoxysspeed.battle_stance": {
+		"animation.deoxys_speed.battle_stance": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
