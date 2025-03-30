@@ -15,7 +15,7 @@
 				"PROFILE"
 			],
 			"animations": [
-				"bedrock(enamorus_incarnate, ground_idle)"
+				"bedrock(enamorus, ground_idle)"
 			]
 		},
 		"walking": {
@@ -23,7 +23,7 @@
 			"transformTicks": 10,
 			"poseTypes": [ "WALK" ],
 			"animations": [
-				"bedrock(enamorus_incarnate, ground_walk)"
+				"bedrock(enamorus, ground_walk)"
 			]
 		}
 	}
