@@ -15,7 +15,7 @@
           "PROFILE"
         ],
         "animations": [
-          "bedrock(dialga_origin, ground_idle)"
+          "bedrock(origindialga, ground_idle)"
         ]
       },
       "walking": {
@@ -23,7 +23,7 @@
         "transformTicks": 10,
         "poseTypes": [ "WALK" ],
         "animations": [ 
-          "bedrock(dialga_origin, ground_walk)"
+          "bedrock(origindialga, ground_walk)"
         ]
       },
       "flying": {
@@ -34,7 +34,7 @@
         ],
         "animations": [
           "look",
-          "bedrock(dialga_origin, air_walk)"
+          "bedrock(origindialga, air_walk)"
         ]
       },
       "hovering": {
@@ -45,7 +45,7 @@
         ],
         "animations": [
           "look",
-          "bedrock(dialga_origin, air_idle)"
+          "bedrock(origindialga, air_idle)"
         ]
       }
     }

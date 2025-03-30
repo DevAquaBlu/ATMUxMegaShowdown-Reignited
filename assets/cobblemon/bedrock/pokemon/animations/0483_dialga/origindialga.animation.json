@@ -79,7 +79,7 @@
 				}
 			}
 		},
-		"animation.dialga_origin.ground_idle": {
+		"animation.origindialga.ground_idle": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -168,7 +168,7 @@
 				}
 			}
 		},
-		"animation.dialga_origin.air_idle": {
+		"animation.origindialga.air_idle": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -247,7 +247,7 @@
 				}
 			}
 		},
-		"animation.dialga_origin.air_walk": {
+		"animation.origindialga.air_walk": {
 			"loop": true,
 			"animation_length": 2.66667,
 			"bones": {
@@ -350,7 +350,7 @@
 				}
 			}
 		},
-		"animation.dialga_origin.blink": {
+		"animation.origindialga.blink": {
 			"animation_length": 0.16667,
 			"bones": {
 				"eyelid_left": {
@@ -369,7 +369,7 @@
 				}
 			}
 		},
-		"animation.dialga_origin.ground_walk": {
+		"animation.origindialga.ground_walk": {
 			"loop": true,
 			"animation_length": 2.66667,
 			"bones": {

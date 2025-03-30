@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "dialga_origin",
+					"name": "origindialga",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "dialga_origin",
+					"parent": "origindialga",
 					"pivot": [0, 14, 0]
 				},
 				{
