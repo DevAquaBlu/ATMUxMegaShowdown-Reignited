@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.zamazenta_crowned.ground_walk": {
+		"animation.zamazenta_crown.ground_walk": {
 			"loop": true,
 			"animation_length": 1.3333,
 			"bones": {
@@ -1164,7 +1164,7 @@
 				}
 			}
 		},
-		"animation.zamazenta_crowned.ground_idle": {
+		"animation.zamazenta_crown.ground_idle": {
 			"loop": true,
 			"bones": {
 				"neck": {
@@ -1563,7 +1563,7 @@
 				}
 			}
 		},
-		"animation.zamazenta_crowned.battle_idle": {
+		"animation.zamazenta_crown.battle_idle": {
 			"loop": true,
 			"bones": {
 				"neck": {
@@ -1964,7 +1964,7 @@
 				}
 			}
 		},
-		"animation.zamazenta_crowned.cry": {
+		"animation.zamazenta_crown.cry": {
 			"animation_length": 3.25,
 			"bones": {
 				"torso": {
@@ -2097,7 +2097,7 @@
 				}
 			}
 		},
-		"animation.zamazenta_crowned.sleep": {
+		"animation.zamazenta_crown.sleep": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -2387,7 +2387,7 @@
 				}
 			}
 		},
-		"animation.zamazenta_crowned.shield_pose2": {
+		"animation.zamazenta_crown.shield_pose2": {
 			"loop": true,
 			"bones": {
 				"neck": {
@@ -2767,7 +2767,7 @@
 				}
 			}
 		},
-		"animation.zamazenta_crowned.pose": {
+		"animation.zamazenta_crown.pose": {
 			"loop": true,
 			"bones": {
 				"neck": {
