@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.calyrex_ice_rider.ground_idle": {
+        "animation.calyrex_ice.ground_idle": {
             "loop": true,
             "bones": {
                 "hair7": {
@@ -822,7 +822,7 @@
                 }
             }
         },
-        "animation.calyrex_ice_rider.ground_walk": {
+        "animation.calyrex_ice.ground_walk": {
             "loop": true,
             "animation_length": 2,
             "bones": {
@@ -3399,7 +3399,7 @@
                 }
             }
         },
-        "animation.calyrex_ice_rider.battle_idle": {
+        "animation.calyrex_ice.battle_idle": {
             "loop": true,
             "animation_length": 8,
             "bones": {
@@ -4200,7 +4200,7 @@
                 }
             }
         },
-        "animation.calyrex_ice_rider.battle_cry": {
+        "animation.calyrex_ice.battle_cry": {
             "animation_length": 1.5,
             "bones": {
                 "neck": {
@@ -4990,7 +4990,7 @@
                 }
             }
         },
-        "animation.calyrex_ice_rider.cry": {
+        "animation.calyrex_ice.cry": {
             "animation_length": 1.5,
             "bones": {
                 "neck": {
@@ -5724,7 +5724,7 @@
                 }
             }
         },
-        "animation.calyrex_ice_rider.sleep": {
+        "animation.calyrex_ice.sleep": {
             "loop": true,
             "bones": {
                 "hair7": {
@@ -6607,7 +6607,7 @@
                 }
             }
         },
-        "animation.calyrex_ice_rider.blink": {
+        "animation.calyrex_ice.blink": {
             "animation_length": 0.0833,
             "bones": {
                 "right_eyelid": {
@@ -6626,7 +6626,7 @@
                 }
             }
         },
-        "animation.calyrex_ice_rider.blink2": {
+        "animation.calyrex_ice.blink2": {
             "animation_length": 0.0833,
             "bones": {
                 "left_eye_lid": {

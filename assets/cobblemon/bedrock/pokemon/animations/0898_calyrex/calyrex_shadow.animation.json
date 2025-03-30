@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.calyrex_shadow_rider.ground_idle": {
+        "animation.calyrex_shadow.ground_idle": {
             "loop": true,
             "bones": {
                 "torso": {
@@ -801,7 +801,7 @@
                 }
             }
         },
-        "animation.calyrex_shadow_rider.ground_walk": {
+        "animation.calyrex_shadow.ground_walk": {
             "loop": true,
             "animation_length": 2,
             "bones": {
@@ -3310,7 +3310,7 @@
                 }
             }
         },
-        "animation.calyrex_shadow_rider.battle_idle": {
+        "animation.calyrex_shadow.battle_idle": {
             "loop": true,
             "animation_length": 8,
             "bones": {
@@ -4111,7 +4111,7 @@
                 }
             }
         },
-        "animation.calyrex_shadow_rider.battle_cry": {
+        "animation.calyrex_shadow.battle_cry": {
             "animation_length": 1.5,
             "bones": {
                 "neck": {
@@ -4961,7 +4961,7 @@
                 }
             }
         },
-        "animation.calyrex_shadow_rider.cry": {
+        "animation.calyrex_shadow.cry": {
             "animation_length": 1.5,
             "bones": {
                 "neck": {
@@ -5695,7 +5695,7 @@
                 }
             }
         },
-        "animation.calyrex_shadow_rider.sleep": {
+        "animation.calyrex_shadow.sleep": {
             "loop": true,
             "bones": {
                 "left_eyelid": {
@@ -6571,7 +6571,7 @@
                 }
             }
         },
-        "animation.calyrex_shadow_rider.blink": {
+        "animation.calyrex_shadow.blink": {
             "animation_length": 0.125,
             "bones": {
                 "eye_lash": {
@@ -6604,7 +6604,7 @@
                 }
             }
         },
-        "animation.calyrex_shadow_rider.blink2": {
+        "animation.calyrex_shadow.blink2": {
             "animation_length": 0.0833,
             "bones": {
                 "left_eye_lid": {

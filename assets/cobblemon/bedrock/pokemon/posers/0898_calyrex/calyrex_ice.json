@@ -19,7 +19,7 @@
             "isBattle": true,
             "animations": [
                 "q.look('head')",
-                "q.bedrock('calyrex_ice_rider', 'battle_idle')"
+                "q.bedrock('calyrex_ice', 'battle_idle')"
             ]
         },
         "standing": {
@@ -32,7 +32,7 @@
             "isBattle": false,
             "animations": [
                 "q.look('head')",
-                "q.bedrock('calyrex_ice_rider', 'ground_idle')"
+                "q.bedrock('calyrex_ice', 'ground_idle')"
             ]
         },
         "walking": {
@@ -41,7 +41,7 @@
             ],
             "animations": [
                 "q.look('head')",
-                "q.bedrock('calyrex_ice_rider', 'ground_walk')"
+                "q.bedrock('calyrex_ice', 'ground_walk')"
             ]
         }
     }
