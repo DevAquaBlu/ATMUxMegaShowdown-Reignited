@@ -8,7 +8,7 @@
             ],
             "poser": "cobblemon:tornadus_therian",
             "model": "cobblemon:tornadus_therian.geo",
-            "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadus_therian.png",
+            "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadustherian.png",
             "layers": []
         },
         {
@@ -16,7 +16,7 @@
                 "shiny",
                 "therian-forme"
             ],
-            "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadus_therian.png"
+            "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadustherian_shiny.png"
         }
     ]
 }

@@ -42,7 +42,7 @@
             "layers": [
                 {
                     "name": "glow",
-                    "texture": "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
+                    "texture": "cobblemon:textures/pokemon/0006_charizard/shiny_y_glow.png",
                     "emissive": true,
                     "translucent": true
                 }
