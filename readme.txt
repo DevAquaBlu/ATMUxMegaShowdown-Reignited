@@ -1,5 +1,3 @@
-!!!MAKE SURE TO CHECK THE DOCUMENTATION FOLDER TOO!!!
-
 This is a modified fork of "AllTheMons", originally created by EasySqueeze.
 Due to the pack's creation, it is recommended to keep it overall private--only share and use it with people you trust. Do not use it on public multiplayer servers.
 
