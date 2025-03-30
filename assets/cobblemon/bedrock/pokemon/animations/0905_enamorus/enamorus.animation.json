@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.enamorus_incarnate.ground_idle": {
+		"animation.enamorus.ground_idle": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -121,13 +121,13 @@
 				"tail_head": {
 					"rotation": [-61.71905, "-38.7498+math.sin(q.anim_time*90*2+90)*5", "-1.4275+math.sin(q.anim_time*90*4)*1.5"]
 				},
-				"enamorus_incarnate": {
+				"enamorus": {
 					"rotation": ["2.5*math.sin(q.anim_time*90*2)*0.5", 0, "2.5*math.sin(q.anim_time*90*2+90)*0.5"],
 					"position": ["0+math.sin(q.anim_time*90*1.5)*2", "8+math.sin(q.anim_time*90*3)*1", "0+math.sin(q.anim_time*90*3)*0.5"]
 				}
 			}
 		},
-		"animation.enamorus_incarnate.ground_walk": {
+		"animation.enamorus.ground_walk": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -247,7 +247,7 @@
 				"tail_head": {
 					"rotation": [-78.80878, "-46.0135+math.sin(q.anim_time*90*2+90)*5", "13.5435+math.sin(q.anim_time*90*4)*1.5"]
 				},
-				"enamorus_incarnate": {
+				"enamorus": {
 					"rotation": ["15+2.5*math.sin(q.anim_time*90*2)*0.75", 0, "2.5*math.sin(q.anim_time*90*2+90)*0.75"],
 					"position": [0, "7+math.sin(q.anim_time*90*4)*0.75", 0]
 				},
