@@ -5,8 +5,8 @@
         {
             "aspects": [],
             "poser": "cobblemon:burmy",
-            "model": "cobblemon:burmy_grass.geo",
-            "texture": "cobblemon:textures/pokemon/0412_burmy/burmy_grass.png",
+            "model": "cobblemon:burmy_plant.geo",
+            "texture": "cobblemon:textures/pokemon/0412_burmy/burmy_plant.png",
             "layers": []
         },
         {
@@ -14,8 +14,8 @@
                 "shiny"
             ],
             "poser": "cobblemon:burmy",
-            "model": "cobblemon:burmy_grass.geo",
-            "texture": "cobblemon:textures/pokemon/0412_burmy/burmy_grass_shiny.png",
+            "model": "cobblemon:burmy_plant.geo",
+            "texture": "cobblemon:textures/pokemon/0412_burmy/burmy_plant_shiny.png",
             "layers": []
         }
     ]
