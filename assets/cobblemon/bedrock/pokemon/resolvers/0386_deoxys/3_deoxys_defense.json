@@ -6,9 +6,9 @@
             "aspects": [
                 "defense-forme"
             ],
-            "poser": "cobblemon:deoxysdefense",
-            "model": "cobblemon:deoxysdefense.geo",
-            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxysdefense.png",
+            "poser": "cobblemon:deoxys_defense",
+            "model": "cobblemon:deoxys_defense.geo",
+            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_defense.png",
             "layers": []
         },
         {
@@ -16,7 +16,7 @@
                 "shiny",
                 "defense-forme"
             ],
-            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxysdefense_shiny.png"
+            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_defense_shiny.png",
         }
     ]
 }

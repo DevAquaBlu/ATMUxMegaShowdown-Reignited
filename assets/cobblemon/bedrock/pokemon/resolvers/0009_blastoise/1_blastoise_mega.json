@@ -18,7 +18,7 @@
             ],
             "poser": "cobblemon:blastoise_mega",
             "model": "cobblemon:blastoise_mega.geo",
-            "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_shiny_mega.png",
             "layers": []
         }
     ]

@@ -14,6 +14,20 @@
                 "shiny"
             ],
             "texture": "cobblemon:textures/pokemon/0334_altaria/altaria_shiny.png"
+        },
+		{
+            "aspects": ["mega"],
+            "poser": "cobblemon:altaria_mega",
+            "model": "cobblemon:altaria_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0334_altaria/megaaltaria.png",
+            "layers": []
+        },
+        {
+            "aspects": ["mega", "shiny"],
+            "poser": "cobblemon:altaria_mega",
+            "model": "cobblemon:altaria_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0334_altaria/megaaltaria_shiny.png",
+            "layers": []
         }
     ]
 }

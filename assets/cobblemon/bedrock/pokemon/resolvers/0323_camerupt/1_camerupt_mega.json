@@ -7,8 +7,8 @@
                 "mega"
             ],
             "poser": "cobblemon:mega_camerupt",
-            "model": "cobblemon:mega_camerupt.geo",
-            "texture": "cobblemon:textures/pokemon/0323_camerupt/mega_camerupt.png",
+            "model": "cobblemon:camerupt_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0323_camerupt/camerupt_mega.png",
             "layers": []
         },
         {
@@ -17,8 +17,8 @@
                 "shiny"
             ],
             "poser": "cobblemon:mega_camerupt",
-            "model": "cobblemon:mega_camerupt.geo",
-            "texture": "cobblemon:textures/pokemon/0323_camerupt/mega_camerupt_shiny.png",
+            "model": "cobblemon:camerupt_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0323_camerupt/camerupt_mega_shiny.png",
             "layers": []
         }
     ]

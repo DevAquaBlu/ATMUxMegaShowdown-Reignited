@@ -7,7 +7,7 @@
                 "mega"
             ],
             "poser": "cobblemon:mega_venusaur",
-            "model": "cobblemon:mega_venusaur.geo",
+            "model": "cobblemon:venusaurmega.geo",
             "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_mega.png",
             "layers": []
         },
@@ -17,7 +17,7 @@
                 "shiny"
             ],
             "poser": "cobblemon:mega_venusaur",
-            "model": "cobblemon:mega_venusaur.geo",
+            "model": "cobblemon:venusaurmega.geo",
             "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_mega_shiny.png",
             "layers": []
         }

@@ -6,9 +6,9 @@
             "aspects": [
                 "attack-forme"
             ],
-            "poser": "cobblemon:deoxysattack",
-            "model": "cobblemon:deoxysattack.geo",
-            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxysattack.png",
+            "poser": "cobblemon:deoxys_attack",
+            "model": "cobblemon:deoxys_attack.geo",
+            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_attack.png",
             "layers": []
         },
         {
@@ -16,7 +16,7 @@
                 "shiny",
                 "attack-forme"
             ],
-            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxysattack_shiny.png"
+            "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_attack_shiny.png",
         }
     ]
 }

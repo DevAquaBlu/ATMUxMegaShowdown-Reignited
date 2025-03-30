@@ -3,16 +3,14 @@
     "order": 0,
     "variations": [
         {
-            "aspects": [],
+            "aspects": ["normal-forme"],
             "poser": "cobblemon:deoxys",
             "model": "cobblemon:deoxys.geo",
             "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys.png",
             "layers": []
         },
         {
-            "aspects": [
-                "shiny"
-            ],
+            "aspects": ["shiny", "normal-forme"],
             "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_shiny.png"
         }
     ]

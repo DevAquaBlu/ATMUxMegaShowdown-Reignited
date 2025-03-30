@@ -14,6 +14,22 @@
                 "shiny"
             ],
             "texture": "cobblemon:textures/pokemon/0308_medicham/medicham_shiny.png"
+        },
+		{
+            "aspects": [
+                "mega"
+            ],
+            "poser": "cobblemon:medicham_mega",
+            "model": "cobblemon:mega_medicham.geo",
+            "texture": "cobblemon:textures/pokemon/0308_medicham/megamedicham.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "mega"
+            ],
+            "texture": "cobblemon:textures/pokemon/0308_medicham/megamedicham_shiny.png"
         }
     ]
 }

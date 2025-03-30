@@ -1,6 +1,6 @@
 {
     "species": "cobblemon:tyranitar",
-    "order": 1,
+    "order": 0,
     "variations": [
         {
             "aspects": [],
@@ -14,6 +14,24 @@
                 "shiny"
             ],
             "texture": "cobblemon:textures/pokemon/0248_tyranitar/tyranitar_shiny.png"
+        },
+		{
+            "aspects": [
+                "mega"
+            ],
+            "poser": "cobblemon:tyranitar2",
+            "model": "cobblemon:tyranitar_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0248_tyranitar/megatyranitar.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "mega"
+            ],
+			"poser": "cobblemon:tyranitar2",
+			"model": "cobblemon:tyranitar_mega.geo",
+            "texture": "cobblemon:textures/pokemon/0248_tyranitar/megatyranitar_shiny.png"
         }
     ]
 }

@@ -1,10 +1,10 @@
 {
     "species": "cobblemon:mewtwo",
-    "order": 1,
+    "order": 0,
     "variations": [
         {
             "poser": "cobblemon:mewtwo",
-            "model": "cobblemon:mewtwo2.geo",
+            "model": "cobblemon:mewtwo.geo",
             "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo.png",
             "layers": [
                 {

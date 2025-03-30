@@ -6,8 +6,8 @@
       "aspects": [
         "mega"
       ],
-      "poser": "cobblemon:megametagross",
-      "model": "cobblemon:mega_metagross.geo",
+      "poser": "cobblemon:metagross_mega",
+      "model": "cobblemon:metagross_mega.geo",
       "texture": "cobblemon:textures/pokemon/0376_metagross/metagross_mega.png"
     },
     {
@@ -15,8 +15,8 @@
         "mega",
         "shiny"
       ],
-      "poser": "cobblemon:megametagross",
-      "model": "cobblemon:mega_metagross.geo",
+      "poser": "cobblemon:metagross_mega",
+      "model": "cobblemon:metagross_mega.geo",
       "texture": "cobblemon:textures/pokemon/0376_metagross/metagross_mega_shiny.png"
     }
   ]

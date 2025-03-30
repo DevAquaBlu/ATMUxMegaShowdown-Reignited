@@ -8,7 +8,7 @@
             ],
             "poser": "cobblemon:aerodactyl",
             "model": "cobblemon:aerodactyl_mega.geo",
-            "texture": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactyl_mega.png",
+            "texture": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactylmega.png",
             "layers": []
         },
         {
@@ -18,7 +18,7 @@
             ],
             "poser": "cobblemon:aerodactyl",
             "model": "cobblemon:aerodactyl_mega.geo",
-            "texture": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactyl_mega_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactylmega_shiny.png",
             "layers": []
         }
     ]

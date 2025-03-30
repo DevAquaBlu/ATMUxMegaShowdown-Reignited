@@ -8,7 +8,7 @@
             ],
             "poser": "cobblemon:charizard_mega_y",
             "model": "cobblemon:charizard_mega_y.geo",
-            "texture": "cobblemon:textures/pokemon/0006_charizard/y/charizard_mega_y.png",
+            "texture": "cobblemon:textures/pokemon/0006_charizard/megacharizardy.png",
             "layers": [
                 {
                     "name": "flame",
@@ -26,7 +26,7 @@
                 },
                 {
                     "name": "glow",
-                    "texture": "cobblemon:textures/pokemon/0006_charizard/y/charizard_mega_y_emissive.png",
+                    "texture": "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
                     "emissive": true,
                     "translucent": true
                 }
@@ -38,11 +38,11 @@
                 "mega-y"
             ],
             "model": "cobblemon:charizard_mega_y.geo",
-            "texture": "cobblemon:textures/pokemon/0006_charizard/y/charizard_mega_y_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0006_charizard/y/megacharizardy_shiny.png",
             "layers": [
                 {
                     "name": "glow",
-                    "texture": "cobblemon:textures/pokemon/0006_charizard/y/charizard_mega_y_shiny_emissive.png",
+                    "texture": "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
                     "emissive": true,
                     "translucent": true
                 }

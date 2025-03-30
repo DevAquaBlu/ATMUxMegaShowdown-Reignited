@@ -1,10 +1,10 @@
 {
     "species": "cobblemon:kyurem",
-    "order": 1,
+    "order": 0,
     "variations": [
         {
             "aspects": [
-                "black-fusion"
+                "black"
             ],
             "poser": "cobblemon:kyuremblack",
             "model": "cobblemon:kyuremblack.geo",
@@ -20,7 +20,7 @@
         },
         {
             "aspects": [
-                "black-fusion",
+                "black",
                 "shiny"
             ],
             "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_shiny.png",

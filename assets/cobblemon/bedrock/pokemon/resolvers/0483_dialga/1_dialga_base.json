@@ -1,6 +1,6 @@
 {
     "species": "cobblemon:dialga",
-    "order": 0,
+    "order": 1,
     "baseScale": 0.75,
     "hitbox": {
         "width": 0.5,
@@ -35,6 +35,37 @@
                     "translucent": false
                 }
             ]
-        }
+        },
+        {
+            "aspects": [
+                "origin-forme"
+            ],
+            "poser": "cobblemon:origindialga",
+            "model": "cobblemon:origindialga.geo",
+            "texture": "cobblemon:textures/pokemon/0483_dialga/origindialga.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/0483_dialga/origindialga_e.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "origin-forme",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0483_dialga/origindialga_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/0483_dialga/origindialga_shiny_e.png",
+                    "translucent": true
+                }
+            ]
+        }		
     ]
 }

@@ -4,18 +4,18 @@
     "variations": [
         {
             "aspects": [],
-            "poser": "cobblemon:enamorus_incarnate",
-            "model": "cobblemon:enamorus_incarnate.geo",
-            "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus_incarnate.png",
+            "poser": "cobblemon:enamorus",
+            "model": "cobblemon:enamorus.geo",
+            "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus.png",
             "layers": []
         },
         {
             "aspects": [
                 "shiny"
             ],
-            "poser": "cobblemon:enamorus_incarnate",
-            "model": "cobblemon:enamorus_incarnate.geo",
-            "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus_incarnate_shiny.png",
+            "poser": "cobblemon:enamorus",
+            "model": "cobblemon:enamorus.geo",
+            "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus_shiny.png",
             "layers": []
         }
     ]

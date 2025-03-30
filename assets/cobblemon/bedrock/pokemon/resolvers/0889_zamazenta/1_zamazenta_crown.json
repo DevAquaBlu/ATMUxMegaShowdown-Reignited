@@ -1,27 +1,14 @@
 {
     "species": "cobblemon:zamazenta",
-    "order": 0,
+    "order": 1,
     "variations": [
-        {
-            "aspects": [],
-            "poser": "cobblemon:zamazenta",
-            "model": "cobblemon:zamazenta.geo",
-            "texture": "cobblemon:textures/pokemon/0889_zamazenta/zamazenta.png",
-            "layers": []
-        },
-        {
-            "aspects": [
-                "shiny"
-            ],
-            "texture": "cobblemon:textures/pokemon/0889_zamazenta/zamazenta_shiny.png"
-        },
         {
             "aspects": [
                 "crowned"
             ],
-            "poser": "cobblemon:zamazenta_crowned",
-            "model": "cobblemon:zamazenta_crowned.geo",
-            "texture": "cobblemon:textures/pokemon/0889_zamazenta/zamazenta_crowned.png",
+            "poser": "cobblemon:zamazenta_crown",
+            "model": "cobblemon:zamazenta_crown.geo",
+            "texture": "cobblemon:textures/pokemon/0889_zamazenta/zamazenta_crown.png",
             "layers": []
         },
         {
@@ -29,9 +16,9 @@
                 "crowned",
                 "shiny"
             ],
-            "poser": "cobblemon:zamazenta_crowned",
-            "model": "cobblemon:zamazenta_crowned.geo",
-            "texture": "cobblemon:textures/pokemon/0889_zamazenta/zamazenta_crowned_shiny.png",
+            "poser": "cobblemon:zamazenta_crown",
+            "model": "cobblemon:zamazenta_crown.geo",
+            "texture": "cobblemon:textures/pokemon/0889_zamazenta/zamazenta_crown_shiny.png",
             "layers": []
         }
     ]

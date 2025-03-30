@@ -1,6 +1,6 @@
 {
     "species": "cobblemon:mewtwo",
-    "order": 1,
+    "order": 2,
     "variations": [
         {
             "aspects": [
@@ -8,7 +8,7 @@
             ],
             "poser": "cobblemon:mewtwo_y",
             "model": "cobblemon:mewtwo_mega_y.geo",
-            "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_mega_y.png",
+            "texture": "cobblemon:textures/pokemon/0150_mewtwo/megamewtwoy.png",
             "layers": [
                 {
                     "name": "emissive",
@@ -24,43 +24,12 @@
             ],
             "poser": "cobblemon:mewtwo_y",
             "model": "cobblemon:mewtwo_mega_y.geo",
-            "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_mega_y_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0150_mewtwo/megamewtwoy_shiny.png",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
                     "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_mega_y_shiny_emissive.png"
-                }
-            ]
-        },
-        {
-            "aspects": [
-                "mega-x"
-            ],
-            "poser": "cobblemon:mewtwo2",
-            "model": "cobblemon:mewtwo_mega_x.geo",
-            "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_mega_x.png",
-            "layers": [
-                {
-                    "name": "emissive",
-                    "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_mega_x_emissive.png"
-                }
-            ]
-        },
-        {
-            "aspects": [
-                "shiny",
-                "mega-x"
-            ],
-            "poser": "cobblemon:mewtwo2",
-            "model": "cobblemon:mewtwo_mega_x.geo",
-            "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_mega_x_shiny.png",
-            "layers": [
-                {
-                    "name": "emissive",
-                    "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_mega_x_shiny_emissive.png"
                 }
             ]
         }
