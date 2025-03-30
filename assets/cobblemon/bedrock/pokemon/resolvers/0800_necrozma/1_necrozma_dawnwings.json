@@ -8,14 +8,14 @@
             ],
             "poser": "cobblemon:necrozma_dawnwings",
             "model": "cobblemon:necrozma_dawnwings.geo",
-            "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings",
+            "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings.png",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
                     "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_emissive.png"
                 },
-                {
+				{
                     "name": "translucent",
                     "translucent": true,
                     "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_transparency.png"
@@ -34,7 +34,7 @@
                     "emissive": true,
                     "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny_emissive.png"
                 },
-                {
+				{
                     "name": "translucent",
                     "translucent": true,
                     "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny_transparency.png"
