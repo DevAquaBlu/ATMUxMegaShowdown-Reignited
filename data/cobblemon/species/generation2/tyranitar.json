@@ -59,7 +59,8 @@
         "walkSpeed": 0.147
       },
       "swim": {
-        "canSwimInLava": true
+        "canSwimInLava": true,
+        "hurtByLava": false
       }
     }
   },

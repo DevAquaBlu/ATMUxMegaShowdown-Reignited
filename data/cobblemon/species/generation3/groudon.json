@@ -63,6 +63,7 @@
         "canFly": false
       },
       "swim": {
+        "hurtByLava": false,
         "canWalkOnLava": true,
         "canBreatheUnderlava": true,
         "avoidsWater": true,

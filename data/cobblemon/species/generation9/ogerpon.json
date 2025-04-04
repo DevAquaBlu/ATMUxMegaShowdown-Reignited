@@ -239,6 +239,12 @@
         "moving": {
           "walk": {
             "walkSpeed": 0.475
+          },
+          "swim": {
+            "avoidsWater": false,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true,	
+            "canWalkOnWater": true
           }
         }
       },
@@ -312,6 +318,13 @@
           "walk": {
             "walkSpeed": 0.475
           }
+        },
+        "swim": {
+          "canWalkOnLava": true,
+          "canBreatheUnderlava": true,
+          "avoidsWater": false,
+          "canSwimInWater": false,
+          "canSwimInLava": true
         }
       },
       "pokedex": [
