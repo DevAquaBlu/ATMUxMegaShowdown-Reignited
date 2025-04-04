@@ -2,8 +2,8 @@
  "head": "neck",
  "portraitScale": 1.25,
  "portraitTranslation": [ -1.25, 0.25, 0 ],
- "profileScale": 0.35,
- "profileTranslation": [ -0.1, 0.95, 0 ],
+ "profileScale": 0.25,
+ "profileTranslation": [ 0.05, 1.36, 0 ],
  "animations": {
     "faint": "q.bedrock_primary('roaringmoon', 'faint', q.curve('one'))",
     "cry": "q.bedrock_stateful('roaringmoon', 'cry')",
