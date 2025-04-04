@@ -1,11 +1,18 @@
 {
   "target": "cobblemon:raikou",
   "implemented": true,
-  "baseScale": 1,
+  "baseScale": 1.05,
   "hitbox": {
     "width": 2,
     "height": 2,
     "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4"
+    }
   },
   "drops": {
     "amount": 5,

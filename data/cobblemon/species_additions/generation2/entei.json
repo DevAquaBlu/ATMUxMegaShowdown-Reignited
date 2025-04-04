@@ -1,11 +1,22 @@
 {
   "target": "cobblemon:entei",
   "implemented": true,
-  "baseScale": 0.8,
+  "baseScale": 0.95,
   "hitbox": {
     "width": 2,
     "height": 2,
     "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canWalkOnLava": true,
+        "canBreatheUnderlava": true,
+        "avoidsWater": true,
+        "canSwimInWater": false,
+        "canSwimInLava": true
+      }
+    }
   },
   "drops": {
     "amount": 5,
