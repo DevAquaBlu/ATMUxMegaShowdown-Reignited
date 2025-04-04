@@ -18,6 +18,14 @@
                 {
                     "multiplier": 2,
                     "condition": {
+                        "neededNearbyBlocks": [
+                            "minecraft:lightning_rod"
+                        ]
+                    }
+                },
+                {
+                    "multiplier": 2,
+                    "condition": {
                         "isRaining": true
                     },
                     "anticondition": {

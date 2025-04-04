@@ -16,7 +16,7 @@
             "weight": 0.5,
             "weightMultipliers": [
                 {
-                    "multiplier": 1.5,
+                    "multiplier": 3,
                     "condition": {
                         "neededNearbyBlocks": [
                             "minecraft:water"
@@ -24,7 +24,7 @@
                     }
                 },
                 {
-                    "multiplier": 3,
+                    "multiplier": 4,
                     "condition": {
                         "isRaining": true
                     },

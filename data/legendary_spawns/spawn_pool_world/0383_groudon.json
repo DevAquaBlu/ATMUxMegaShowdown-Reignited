@@ -40,6 +40,23 @@
                     "#cobblemon:is_volcanic"
                 ]
             }
+        },
+        {
+            "id": "groudon-3",
+            "pokemon": "groudon",
+            "presets": [
+                "lava"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            }
         }
     ]
 }

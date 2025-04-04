@@ -16,13 +16,13 @@
             "weight": 0.5,
             "weightMultipliers": [
                 {
-                    "multiplier": 1.5,
+                    "multiplier": 2,
                     "condition": {
                         "timeRange": "day"
                     }
                 },
                 {
-                    "multiplier": 1.5,
+                    "multiplier": 2,
                     "condition": {
                         "biomes": [
                             "#cobblemon:is_arid"
@@ -30,7 +30,7 @@
                     }
                 },
                 {
-                    "multiplier": 2,
+                    "multiplier": 3,
                     "condition": {
                         "neededNearbyBlocks": [
                             "minecraft:lava"
