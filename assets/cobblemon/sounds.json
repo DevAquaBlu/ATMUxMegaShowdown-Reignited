@@ -239,7 +239,7 @@
         "sounds": [
             {
                 "name": "cobblemon:pokemon/groudon/groudon_cry",
-                "volume": 0.8
+                "volume": 0.6
             }
         ]
     },
@@ -247,7 +247,7 @@
         "sounds": [
             {
                 "name": "cobblemon:pokemon/groudon/groudon_cry",
-                "volume": 0.8
+                "volume": 0.5
             }
         ]
     },
@@ -255,7 +255,7 @@
         "sounds": [
             {
                 "name": "cobblemon:pokemon/hoopa/hoopa_cry",
-                "volume": 0.8
+                "volume": 0.5
             }
         ]
     },
