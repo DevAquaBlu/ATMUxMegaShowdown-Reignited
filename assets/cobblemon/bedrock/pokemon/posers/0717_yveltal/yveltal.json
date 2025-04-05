@@ -1,59 +1,83 @@
 {
-  "head": "head",
-  "portraitScale": 1.75,
-  "portraitTranslation": [
-    -1.5,
-    3,
-    0
-  ],
-  "profileScale": 0.4,
-  "profileTranslation": [
-    0,
-    1.35,
-    0
-  ],
+  "portraitScale": 0.92,
+  "portraitTranslation": [-0.68,1.93, 0],
+  "profileScale": 0.125,
+  "profileTranslation": [0, 1.58, -20],
+  "animations": {},
   "poses": {
-    "standing": {
-      "poseName": "standing",
+    "battle-standing": {
       "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
       "animations": [
-        "look",
-        "bedrock(yveltal, ground_idle)"
+        "q.look('head')",
+        "q.bedrock('yveltal', 'fly_idle_battle')"
       ],
       "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(yveltal, blink)"
-          ]
-        }
+        "q.bedrock_quirk('yveltal', 'blink')"
       ]
     },
-    "walking": {
-      "poseName": "walking",
+    "standing": {
       "transformTicks": 10,
-      "poseTypes": [
-        "WALK",
-        "FLY",
-        "HOVER"
-      ],
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
       "animations": [
-        "look",
-        "bedrock(yveltal, ground_walk)"
+        "q.look('head')",
+        "q.bedrock('yveltal', 'ground_idle')"
       ],
       "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(yveltal, blink)"
-          ]
-        }
+       "q.bedrock_quirk('yveltal', 'blink')"]
+    },
+    "walking": {
+      "transformTicks": 8,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('yveltal', 'ground_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('yveltal', 'blink')"
+      ]
+    },
+    "hover": {
+      "transformTicks": 5,
+      "poseTypes": [  "HOVER", "FLOAT" ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('yveltal', 'fly_idle')"
+       ],
+       "quirks": [
+        "q.bedrock_quirk('yveltal', 'blink')"
+      ]
+    },
+    "fly": {
+      "transformTicks": 5,
+      "poseTypes": [ "FLY" ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('yveltal', 'air_fly')"
+       ],
+       "quirks": [
+        "q.bedrock_quirk('yveltal', 'blink')"
+      ]
+    },
+    "float": {
+      "transformTicks": 5,
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('yveltal', 'fly_idle'')"
+      ]
+    },
+    "swim": {
+      "transformTicks": 8,
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('yveltal', 'air_fly')"
+      ],
+       "quirks": [
+        "q.bedrock_quirk('yveltal', 'blink')"
       ]
     }
   }

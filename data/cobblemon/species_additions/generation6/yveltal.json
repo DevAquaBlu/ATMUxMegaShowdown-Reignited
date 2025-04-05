@@ -1,11 +1,22 @@
 {
   "target": "cobblemon:yveltal",
   "implemented": true,
-  "baseScale": 1.825,
+  "baseScale": 1.2,
   "hitbox": {
-    "width": 1.75,
-    "height": 3.25,
+    "width": 3,
+    "height": 4,
     "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.45
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.7
+      }
+    }
   },
   "drops": {
     "amount": 5,
