@@ -228,21 +228,7 @@
     "tutor:trick",
     "tutor:twister"
   ],
-  "evolutions": [
-    {
-      "id": "dialga_dialgaorigin",
-      "variant": "level_up",
-      "result": "dialga orb_forme=origin",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Origin",
@@ -378,21 +364,7 @@
         "tutor:thunderbolt",
         "tutor:trick"
       ],
-      "evolutions": [
-        {
-          "id": "dialgaorigin_dialga",
-          "variant": "level_up",
-          "result": "dialga orb_forme=altered",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

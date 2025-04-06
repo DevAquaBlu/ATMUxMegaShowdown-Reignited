@@ -238,29 +238,7 @@
     "tutor:zenheadbutt"
   ],
   "preEvolution": "wartortle",
-  "evolutions": [
-    {
-      "id": "blastoise_megablastoise",
-      "variant": "level_up",
-      "result": "blastoise mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -292,21 +270,7 @@
       },
       "baseExperienceYield": 315,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megablastoise_blastoise",
-          "variant": "level_up",
-          "result": "blastoise mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {

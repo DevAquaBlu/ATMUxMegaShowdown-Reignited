@@ -201,21 +201,7 @@
     "tutor:worryseed",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "shaymin_shayminsky",
-      "variant": "level_up",
-      "result": "shaymin gracidea_forme=sky",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:spore_blossom"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Sky",
@@ -344,21 +330,7 @@
         "tutor:worryseed",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "shayminsky_shaymin",
-          "variant": "level_up",
-          "result": "shaymin gracidea_forme=land",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:spore_blossom"
-            }          
-          ]        
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

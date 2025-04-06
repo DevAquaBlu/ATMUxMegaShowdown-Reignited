@@ -213,21 +213,7 @@
     "tutor:waterpulse",
     "tutor:xscissor"
   ],
-  "evolutions": [
-    {
-      "id": "keldeo_keldeoresolute",
-      "variant": "level_up",
-      "result": "keldeo sword_form=resolute",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "secretsword"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Resolute",
@@ -249,21 +235,13 @@
       ],
       "labels": [
         "gen5",
-        "mythical"
+        "mythical",
+        "legendary"
       ],
       "aspects": [
-        "resolute-form"
+        "resolute"
       ],
-      "evolutions": [
-        {
-          "id": "keldeoresolute_keldeo",
-          "variant": "level_up",
-          "result": "keldeo sword_form=ordinary",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": []
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

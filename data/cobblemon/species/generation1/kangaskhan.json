@@ -231,29 +231,7 @@
     "tutor:wish",
     "tutor:yawn"
   ],
-  "evolutions": [
-    {
-      "id": "kangaskhan_megakangaskhan",
-      "variant": "level_up",
-      "result": "kangaskhan mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -285,21 +263,7 @@
       },
       "baseExperienceYield": 207,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megakangaskhan_kangaskhan",
-          "variant": "level_up",
-          "result": "kangaskhan mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

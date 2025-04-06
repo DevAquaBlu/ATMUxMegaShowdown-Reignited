@@ -260,50 +260,7 @@
     "tutor:twister"
   ],
   "preEvolution": "charmeleon",
-  "evolutions": [
-    {
-      "id": "charizard_megacharizardx",
-      "variant": "level_up",
-      "result": "charizard mega-x",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    },
-    {
-      "id": "charizard_megacharizardy",
-      "variant": "level_up",
-      "result": "charizard mega-y",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega-X",
@@ -336,21 +293,7 @@
       },
       "baseExperienceYield": 317,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megacharizardx_charizard",
-          "variant": "level_up",
-          "result": "charizard mega-x=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -384,21 +327,7 @@
       },
       "baseExperienceYield": 317,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megacharizardy_charizard",
-          "variant": "level_up",
-          "result": "charizard mega-y=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {

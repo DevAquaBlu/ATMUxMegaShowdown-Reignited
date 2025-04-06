@@ -165,47 +165,7 @@
     "tutor:thunderbolt",
     "tutor:waterpulse"
   ],
-  "evolutions": [
-    {
-      "id": "castform_castformsunny",
-      "variant": "level_up",
-      "result": "castform forecast_form=sunny",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "sunnyday"
-        }
-      ]
-    },
-    {
-      "id": "castform_castformrainy",
-      "variant": "level_up",
-      "result": "castform forecast_form=rainy",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "raindance"
-        }
-      ]
-    },
-    {
-      "id": "castform_castformsnowy",
-      "variant": "level_up",
-      "result": "castform forecast_form=snowy",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "snowscape"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Sunny",
@@ -235,21 +195,7 @@
           }
         ]
       },
-      "evolutions": [
-        {
-          "id": "castformsunny_castform",
-          "variant": "level_up",
-          "result": "castform forecast_form=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "has_move",
-              "move": "defog"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -280,21 +226,7 @@
           }
         ]
       },
-      "evolutions": [
-        {
-          "id": "castformrainy_castform",
-          "variant": "level_up",
-          "result": "castform forecast_form=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "has_move",
-              "move": "defog"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -325,21 +257,7 @@
           }
         ]
       },
-      "evolutions": [
-        {
-          "id": "castformsnowy_castform",
-          "variant": "level_up",
-          "result": "castform forecast_form=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "has_move",
-              "move": "defog"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

@@ -10,6 +10,16 @@
   "pokedex": [
     "cobblemon.species.oricorio.desc"
   ],
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "canWalk": true
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
   "labels": [
     "gen7"
   ],
@@ -44,12 +54,6 @@
   "catchRate": 45,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 0.75,
-  "hitbox": {
-    "width": 1,
-    "height": 1.25,
-    "fixed": false
-  },
   "drops": {
     "amount": 5,
     "entries": [
@@ -105,19 +109,15 @@
     "tm:calmmind",
     "tm:captivate",
     "tm:charm",
-    "tm:confide",
     "tm:covet",
     "tm:defog",
-    "tm:doubleteam",
     "tm:dualwingbeat",
     "tm:embargo",
     "tm:endure",
     "tm:facade",
     "tm:featherdance",
     "tm:fly",
-    "tm:frustration",
     "tm:helpinghand",
-    "tm:hiddenpower",
     "tm:hurricane",
     "tm:icywind",
     "tm:pluck",
@@ -126,27 +126,22 @@
     "tm:quash",
     "tm:raindance",
     "tm:rest",
-    "tm:return",
     "tm:reversal",
     "tm:roleplay",
     "tm:roost",
-    "tm:round",
     "tm:safeguard",
     "tm:sandstorm",
     "tm:skyattack",
     "tm:sleeptalk",
-    "tm:snore",
     "tm:steelwing",
     "tm:substitute",
     "tm:sunnyday",
-    "tm:swagger",
     "tm:swift",
     "tm:swordsdance",
     "tm:tailwind",
     "tm:takedown",
     "tm:taunt",
     "tm:terablast",
-    "tm:toxic",
     "tm:trailblaze",
     "tm:uturn",
     "tm:workup",
@@ -167,6 +162,7 @@
     "tutor:tailwind"
   ],
   "evolutions": [],
+  "features": ["dance_style"],
   "forms": [
     {
       "name": "Pom-Pom",
@@ -176,13 +172,13 @@
       "height": 6,
       "weight": 34,
       "pokedex": [
-        "cobblemon.species.oricorio-pompom.desc"
+        "cobblemon.species.oricorio.desc"
       ],
       "labels": [
         "gen7"
       ],
       "aspects": [
-        "pom_pom-style"
+        "pom-pom-style"
       ],
       "evolutions": [],
       "battleOnly": false
@@ -195,13 +191,13 @@
       "height": 6,
       "weight": 34,
       "pokedex": [
-        "cobblemon.species.oricorio-pau.desc"
+        "cobblemon.species.oricorio.desc"
       ],
       "labels": [
         "gen7"
       ],
       "aspects": [
-        "pa'u-style"
+        "pau-style"
       ],
       "evolutions": [],
       "battleOnly": false
@@ -214,7 +210,7 @@
       "height": 6,
       "weight": 34,
       "pokedex": [
-        "cobblemon.species.oricorio-sensu.desc"
+        "cobblemon.species.oricorio.desc"
       ],
       "labels": [
         "gen7"

@@ -12,7 +12,6 @@
   "labels": [
     "gen8",
     "legendary",
-    "restricted"
   ],
   "aspects": [],
   "abilities": [
@@ -186,21 +185,7 @@
     "tutor:thunderfang",
     "tutor:wildcharge"
   ],
-  "evolutions": [
-    {
-      "id": "zacian_zaciancrowned",
-      "variant": "level_up",
-      "result": "zacian behemoth_warrior=crowned",
-      "consumeHeldItem": false,
-      "learnableMoves": ["behemothblade"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:netherite_sword"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Crowned",
@@ -212,10 +197,12 @@
       "pokedex": [
         "cobblemon.species.zacian-crowned.desc"
       ],
+      "moves": [
+        "form_change:behemothblade"
+      ],
       "labels": [
         "gen8",
         "legendary",
-        "restricted"
       ],
       "aspects": [
         "crowned"
@@ -229,21 +216,7 @@
         "speed": 148
       },
       "baseExperienceYield": 350,
-      "evolutions": [
-        {
-          "id": "zaciancrowned_hero",
-          "variant": "level_up",
-          "result": "zacian behemoth_warrior=hero",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:netherite_sword"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

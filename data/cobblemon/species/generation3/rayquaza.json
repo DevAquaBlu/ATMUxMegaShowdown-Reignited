@@ -256,21 +256,7 @@
     "tutor:vcreate",
     "tutor:wildcharge"
   ],
-  "evolutions": [
-    {
-      "id": "rayquaza_megarayquaza",
-      "variant": "level_up",
-      "result": "rayquaza mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "dragonascent"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -312,16 +298,7 @@
       "baseExperienceYield": 390,
       "catchRate": 45,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megarayquaza_rayquaza",
-          "variant": "level_up",
-          "result": "rayquaza mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": []
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

@@ -14,9 +14,7 @@
     "legendary",
     "restricted"
   ],
-  "aspects": [
-    "none-fusion"
-  ],
+  "aspects": [],
   "abilities": [
     "prismarmor",
     "h:prismarmor"
@@ -223,36 +221,7 @@
     "tutor:trick",
     "tutor:xscissor"
   ],
-  "evolutions": [
-    {
-      "id": "necrozma_necrozmaduskmane",
-      "variant": "level_up",
-      "result": "necrozma prism_fusion=dusk",
-      "consumeHeldItem": false,
-      "learnableMoves": ["sunsteelstrike"],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "solgaleo",
-          "contains": true
-        }
-      ]
-    },
-    {
-      "id": "necrozma_necrozmadawnwings",
-      "variant": "level_up",
-      "result": "necrozma prism_fusion=dawn",
-      "consumeHeldItem": false,
-      "learnableMoves": ["moongeistbeam"],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "lunala",
-          "contains": true
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Dusk-Mane",
@@ -422,35 +391,7 @@
         "tutor:trick",
         "tutor:xscissor"
       ],
-      "evolutions": [
-        {
-          "id": "necrozmaduskmane_necrozmaultra",
-          "variant": "level_up",
-          "result": "necrozma prism_fusion=ultra",
-          "consumeHeldItem": false,
-          "learnableMoves": ["photongeyser"],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:beacon"
-            }
-          ]
-        },
-        {
-          "id": "necrozmaduskmane_necrozma",
-          "variant": "level_up",
-          "result": "necrozma prism_fusion=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "party_member",
-              "target": "solgaleo",
-              "contains": true
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -621,35 +562,7 @@
         "tutor:trick",
         "tutor:xscissor"
       ],
-      "evolutions": [
-        {
-          "id": "necrozmadawnwings_necrozmaultra",
-          "variant": "level_up",
-          "result": "necrozma prism_fusion=ultra",
-          "consumeHeldItem": false,
-          "learnableMoves": ["photongeyser"],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:beacon"
-            }
-          ]
-        },
-        {
-          "id": "necrozmadawnwings_necrozma",
-          "variant": "level_up",
-          "result": "necrozma prism_fusion=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "party_member",
-              "target": "lunala",
-              "contains": true
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -675,7 +588,7 @@
         "ultra_burst"
       ],
       "aspects": [
-        "ultra-fusion"
+        "ultra"
       ],
       "abilities": [
         "neuroforce",
@@ -700,21 +613,7 @@
       "baseExperienceYield": 377,
       "catchRate": 255,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "necrozmaultra_necrozma",
-          "variant": "level_up",
-          "result": "necrozma prism_fusion=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:beacon"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

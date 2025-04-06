@@ -11,12 +11,9 @@
   ],
   "labels": [
     "gen3",
-    "legendary",
-    "restricted"
+    "legendary"
   ],
-  "aspects": [
-    "standard"
-  ],
+  "aspects": [],
   "abilities": [
     "drought",
     "h:drought"
@@ -251,21 +248,7 @@
     "tutor:thunderpunch",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "groudon_primalgroudon",
-      "variant": "level_up",
-      "result": "groudon reversion_state=primal",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:flame_orb"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Primal",
@@ -281,7 +264,6 @@
       "labels": [
         "gen6",
         "legendary",
-        "restricted",
         "primal"
       ],
       "aspects": [
@@ -301,21 +283,7 @@
       },
       "baseExperienceYield": 385,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "primalgroudon_groudon",
-          "variant": "level_up",
-          "result": "groudon reversion_state=standard",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:flame_orb"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

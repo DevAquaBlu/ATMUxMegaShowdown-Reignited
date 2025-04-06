@@ -188,29 +188,7 @@
     "tutor:throatchop",
     "tutor:xscissor"
   ],
-  "evolutions": [
-    {
-      "id": "pinsir_megapinsir",
-      "variant": "level_up",
-      "result": "pinsir mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -243,21 +221,7 @@
       },
       "baseExperienceYield": 210,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megapinsir_pinsir",
-          "variant": "level_up",
-          "result": "pinsir mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

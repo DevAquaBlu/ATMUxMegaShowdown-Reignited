@@ -12,7 +12,6 @@
   "labels": [
     "gen8",
     "legendary",
-    "restricted"
   ],
   "aspects": [],
   "abilities": [
@@ -190,21 +189,7 @@
     "tutor:thunderfang",
     "tutor:wildcharge"
   ],
-  "evolutions": [
-    {
-      "id": "zamazenta_zamazentacrowned",
-      "variant": "level_up",
-      "result": "zamazenta behemoth_warrior=crowned",
-      "consumeHeldItem": false,
-      "learnableMoves": ["behemothbash"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:ability_shield"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Crowned",
@@ -216,10 +201,12 @@
       "pokedex": [
         "cobblemon.species.zamazenta-crowned.desc"
       ],
+      "moves": [
+        "form_change:behemothbash"
+      ],
       "labels": [
         "gen8",
-        "legendary",
-        "restricted"
+        "legendary"
       ],
       "aspects": [
         "crowned"
@@ -233,21 +220,7 @@
         "speed": 128
       },
       "baseExperienceYield": 350,
-      "evolutions": [
-        {
-          "id": "zamazentacrowned_hero",
-          "variant": "level_up",
-          "result": "zamazenta behemoth_warrior=hero",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:ability_shield"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

@@ -1,4 +1,5 @@
 {
+  "implemented": true,
   "nationalPokedexNumber": 479,
   "name": "Rotom",
   "primaryType": "electric",
@@ -12,9 +13,7 @@
   "labels": [
     "gen4"
   ],
-  "aspects": [
-    "none-appliance"
-  ],
+  "aspects": ["none"],
   "abilities": [
     "levitate",
     "h:levitate"
@@ -43,33 +42,11 @@
   "catchRate": 45,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 0.6,
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 0.8,
-    "height": 1.8,
+    "width": 1,
+    "height": 2.2,
     "fixed": false
-  },
-  "behaviour": {
-    "resting": {
-      "canSleep": false,
-      "depth": "normal",
-      "light": "4-15"
-    },
-    "moving": {
-      "canLook": false,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": false,
-        "canBreatheUnderwater": false
-      },
-	  "fly": {
-	  "canFly": true
-	  }
-    }
   },
   "moves": [
     "1:astonish",
@@ -90,7 +67,6 @@
     "tm:chargebeam",
     "tm:confuseray",
     "tm:darkpulse",
-    "tm:defog",
     "tm:doubleteam",
     "tm:dreameater",
     "tm:eerieimpulse",
@@ -101,40 +77,30 @@
     "tm:facade",
     "tm:flash",
     "tm:foulplay",
-    "tm:frustration",
     "tm:helpinghand",
     "tm:hex",
-    "tm:hiddenpower",
     "tm:hypervoice",
     "tm:lightscreen",
-    "tm:mudslap",
     "tm:nastyplot",
-    "tm:naturalgift",
     "tm:nightshade",
     "tm:ominouswind",
     "tm:painsplit",
     "tm:poltergeist",
     "tm:protect",
-    "tm:psychup",
     "tm:raindance",
     "tm:reflect",
     "tm:rest",
-    "tm:return",
     "tm:risingvoltage",
-    "tm:round",
-    "tm:secretpower",
     "tm:shadowball",
     "tm:shockwave",
     "tm:signalbeam",
     "tm:sleeptalk",
     "tm:snatch",
-    "tm:snore",
     "tm:spite",
     "tm:storedpower",
     "tm:substitute",
     "tm:suckerpunch",
     "tm:sunnyday",
-    "tm:swagger",
     "tm:swift",
     "tm:telekinesis",
     "tm:terablast",
@@ -142,16 +108,13 @@
     "tm:thunder",
     "tm:thunderbolt",
     "tm:thunderwave",
-    "tm:toxic",
     "tm:trick",
     "tm:uproar",
     "tm:voltswitch",
     "tm:willowisp",
     "tutor:allyswitch",
     "tutor:chargebeam",
-    "tutor:confide",
     "tutor:darkpulse",
-    "tutor:disarmingvoice",
     "tutor:electroweb",
     "tutor:foulplay",
     "tutor:helpinghand",
@@ -174,73 +137,7 @@
     "tutor:trick",
     "tutor:uproar"
   ],
-  "evolutions": [
-    {
-      "id": "rotom_rotomheat",
-      "variant": "level_up",
-      "result": "rotom appliance=heat",
-      "consumeHeldItem": false,
-      "learnableMoves": ["overheat"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:monitor"
-        }          
-      ]
-    },
-    {
-      "id": "rotom_rotomwash",
-      "variant": "level_up",
-      "result": "rotom appliance=wash",
-      "consumeHeldItem": false,
-      "learnableMoves": ["hydropump"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:monitor"
-        }          
-      ]
-    },
-    {
-      "id": "rotom_rotomfrost",
-      "variant": "level_up",
-      "result": "rotom appliance=frost",
-      "consumeHeldItem": false,
-      "learnableMoves": ["blizzard"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:monitor"
-        }          
-      ]
-    },
-    {
-      "id": "rotom_rotomfan",
-      "variant": "level_up",
-      "result": "rotom appliance=fan",
-      "consumeHeldItem": false,
-      "learnableMoves": ["airslash"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:monitor"
-        }          
-      ]
-    },
-    {
-      "id": "rotom_rotommow",
-      "variant": "level_up",
-      "result": "rotom appliance=mow",
-      "consumeHeldItem": false,
-      "learnableMoves": ["leafstorm"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:monitor"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Heat",
@@ -281,6 +178,7 @@
         "45:trick",
         "50:discharge",
         "55:uproar",
+        "form_change:overheat",
         "tm:allyswitch",
         "tm:charge",
         "tm:chargebeam",
@@ -357,21 +255,7 @@
         "tutor:trick",
         "tutor:uproar"
       ],
-      "evolutions": [
-        {
-          "id": "rotomheat_rotom",
-          "variant": "level_up",
-          "result": "rotom appliance=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:monitor"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -413,6 +297,7 @@
         "45:trick",
         "50:discharge",
         "55:uproar",
+        "form_change:hydropump",
         "tm:allyswitch",
         "tm:charge",
         "tm:chargebeam",
@@ -489,21 +374,7 @@
         "tutor:trick",
         "tutor:uproar"
       ],
-      "evolutions": [
-        {
-          "id": "rotomwash_rotom",
-          "variant": "level_up",
-          "result": "rotom appliance=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:monitor"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -545,6 +416,7 @@
         "45:trick",
         "50:discharge",
         "55:uproar",
+        "form_change:blizzard",
         "tm:allyswitch",
         "tm:blizzard",
         "tm:charge",
@@ -621,21 +493,7 @@
         "tutor:trick",
         "tutor:uproar"
       ],
-      "evolutions": [
-        {
-          "id": "rotomfrost_rotom",
-          "variant": "level_up",
-          "result": "rotom appliance=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:monitor"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -653,10 +511,6 @@
       ],
       "aspects": [
         "fan-appliance"
-      ],
-      "abilities": [
-        "motordrive",
-        "h:motordrive"
       ],
       "baseStats": {
         "hp": 50,
@@ -681,6 +535,7 @@
         "45:trick",
         "50:discharge",
         "55:uproar",
+        "form_change:airslash",
         "tm:airslash",
         "tm:allyswitch",
         "tm:charge",
@@ -757,21 +612,7 @@
         "tutor:trick",
         "tutor:uproar"
       ],
-      "evolutions": [
-        {
-          "id": "rotomfan_rotom",
-          "variant": "level_up",
-          "result": "rotom appliance=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:monitor"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -813,6 +654,7 @@
         "45:trick",
         "50:discharge",
         "55:uproar",
+        "form_change:leafstorm",
         "tm:allyswitch",
         "tm:charge",
         "tm:chargebeam",
@@ -889,21 +731,7 @@
         "tutor:trick",
         "tutor:uproar"
       ],
-      "evolutions": [
-        {
-          "id": "rotommow_rotom",
-          "variant": "level_up",
-          "result": "rotom appliance=none",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:monitor"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

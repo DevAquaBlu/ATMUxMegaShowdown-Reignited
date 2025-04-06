@@ -175,44 +175,7 @@
     "tutor:wonderroom",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "calyrex_calyrexice",
-      "variant": "level_up",
-      "result": "calyrex king_steed=ice",
-      "consumeHeldItem": true,
-      "learnableMoves": ["glaciallance"],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "glastrier",
-          "contains": "true"
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:saddle"
-        }
-      ]
-    },
-    {
-      "id": "calyrex_calyrexshadow",
-      "variant": "level_up",
-      "result": "calyrex king_steed=shadow",
-      "consumeHeldItem": true,
-      "learnableMoves": ["astralbarrage"],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "spectrier",
-          "contains": "true"
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:saddle"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Ice",
@@ -233,10 +196,9 @@
       "labels": [
         "gen8",
         "legendary",
-        "restricted"
       ],
       "aspects": [
-        "ice-rider"
+        "ice"
       ],
       "abilities": [
         "asoneglastrier",
@@ -438,10 +400,9 @@
       "labels": [
         "gen8",
         "legendary",
-        "restricted"
       ],
       "aspects": [
-        "shadow-rider"
+        "shadow"
       ],
       "abilities": [
         "asonespectrier",

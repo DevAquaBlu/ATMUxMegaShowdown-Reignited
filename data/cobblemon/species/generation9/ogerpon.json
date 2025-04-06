@@ -186,47 +186,7 @@
     "tutor:throatchop",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "ogerpon_ogerponwater",
-      "variant": "level_up",
-      "result": "ogerpon ogre_mask=wellspring",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:mystic_water"
-        }
-      ]
-    },
-    {
-      "id": "ogerpon_ogerponfire",
-      "variant": "level_up",
-      "result": "ogerpon ogre_mask=hearthflame",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:charcoal_stick"
-        }
-      ]
-    },
-    {
-      "id": "ogerpon_ogerponrock",
-      "variant": "level_up",
-      "result": "ogerpon ogre_mask=cornerstone",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:hard_stone"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Wellspring",
@@ -263,47 +223,7 @@
         "h:waterabsorb"
       ],
       "eggCycles": 5,
-      "evolutions": [
-        {
-          "id": "ogerponwater_ogerpon",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=teal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:miracle_seed"
-            }
-          ]
-        },
-        {
-          "id": "ogerponwater_ogerponfire",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=hearthflame",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:charcoal_stick"
-            }
-          ]
-        },
-        {
-          "id": "ogerponwater_ogerponrock",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=cornerstone",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:hard_stone"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -342,47 +262,7 @@
         "h:moldbreaker"
       ],
       "eggCycles": 5,
-      "evolutions": [
-        {
-          "id": "ogerponfire_ogerpon",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=teal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:miracle_seed"
-            }
-          ]
-        },
-        {
-          "id": "ogerponfire_ogerponwater",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=wellspring",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:mystic_water"
-            }
-          ]
-        },
-        {
-          "id": "ogerponfire_ogerponrock",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=cornerstone",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:hard_stone"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -414,47 +294,7 @@
         "h:sturdy"
       ],
       "eggCycles": 5,
-      "evolutions": [
-        {
-          "id": "ogerponrock_ogerpon",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=teal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:miracle_seed"
-            }
-          ]
-        },
-        {
-          "id": "ogerponrock_ogerponwater",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=wellspring",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:mystic_water"
-            }
-          ]
-        },
-        {
-          "id": "ogerponrock_ogerponfire",
-          "variant": "level_up",
-          "result": "ogerpon ogre_mask=hearthflame",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:charcoal_stick"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -471,7 +311,7 @@
         "legendary"
       ],
       "aspects": [
-        "embody-aspect",
+        "embody_aspect",
         "teal-mask"
       ],
       "abilities": [
@@ -498,7 +338,7 @@
         "legendary"
       ],
       "aspects": [
-        "embody-aspect",
+        "embody_aspect",
         "wellspring-mask"
       ],
       "abilities": [
@@ -525,7 +365,7 @@
         "legendary"
       ],
       "aspects": [
-        "embody-aspect",
+        "embody_aspect",
         "hearthflame-mask"
       ],
       "abilities": [
@@ -552,7 +392,7 @@
         "legendary"
       ],
       "aspects": [
-        "embody-aspect",
+        "embody_aspect",
         "cornerstone-mask"
       ],
       "abilities": [

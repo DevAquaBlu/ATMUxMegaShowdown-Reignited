@@ -177,29 +177,7 @@
     "tutor:wildcharge"
   ],
   "preEvolution": "electrike",
-  "evolutions": [
-    {
-      "id": "manectric_megamanectric",
-      "variant": "level_up",
-      "result": "manectric mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -237,21 +215,7 @@
       },
       "baseExperienceYield": 201,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megamanectric_manectric",
-          "variant": "level_up",
-          "result": "manectric mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

@@ -270,47 +270,7 @@
     "tutor:zapcannon",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "deoxys_deoxysattack",
-      "variant": "level_up",
-      "result": "deoxys meteorite_forme=attack",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }
-      ]
-    },
-    {
-      "id": "deoxys_deoxysdefense",
-      "variant": "level_up",
-      "result": "deoxys meteorite_forme=defense",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }
-      ]
-    },
-    {
-      "id": "deoxys_deoxysspeed",
-      "variant": "level_up",
-      "result": "deoxys meteorite_forme=speed",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Attack",
@@ -502,47 +462,7 @@
         "tutor:wonderroom",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "deoxysattack_deoxys",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        },
-        {
-          "id": "deoxysattack_deoxysdefense",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=defense",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        },
-        {
-          "id": "deoxysattack_deoxysspeed",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=speed",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -742,47 +662,7 @@
         "tutor:wonderroom",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "deoxysdefense_deoxys",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        },
-        {
-          "id": "deoxysdefense_deoxysattack",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=attack",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        },
-        {
-          "id": "deoxysdefense_deoxysspeed",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=speed",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -977,47 +857,7 @@
         "tutor:wonderroom",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "deoxysspeed_deoxys",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        },
-        {
-          "id": "deoxysspeed_deoxysattack",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=attack",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        },
-        {
-          "id": "deoxysspeed_deoxysdefense",
-          "variant": "level_up",
-          "result": "deoxys meteorite_forme=defense",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

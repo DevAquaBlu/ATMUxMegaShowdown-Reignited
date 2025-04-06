@@ -313,29 +313,7 @@
     "tutor:zenheadbutt"
   ],
   "preEvolution": "kirlia",
-  "evolutions": [
-    {
-      "id": "gallade_megagallade",
-      "variant": "level_up",
-      "result": "gallade mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -372,21 +350,7 @@
       },
       "baseExperienceYield": 309,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megagallade_gallade",
-          "variant": "level_up",
-          "result": "gallade mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

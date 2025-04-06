@@ -236,21 +236,7 @@
     "tutor:thunderbolt",
     "tutor:twister"
   ],
-  "evolutions": [
-    {
-      "id": "giratina_giratinaorigin",
-      "variant": "level_up",
-      "result": "giratina orb_forme=origin",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Origin",
@@ -417,21 +403,7 @@
         "tutor:thunderbolt",
         "tutor:twister"
       ],
-      "evolutions": [
-        {
-          "id": "giratinaorigin_giratina",
-          "variant": "level_up",
-          "result": "giratina orb_forme=altered",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

@@ -222,35 +222,10 @@
     "tutor:swift",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "kyurem_kyuremwhite",
-      "variant": "level_up",
-      "result": "kyurem absofusion=white",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "reshiram",
-          "contains": true
-        }
-      ]
-    },
-    {
-      "id": "kyurem_kyuremblack",
-      "variant": "level_up",
-      "result": "kyurem absofusion=black",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "zekrom",
-          "contains": true
-        }
-      ]
-    }
+  "evolutions": [],
+  "features": [
+    "black",
+    "white"
   ],
   "forms": [
     {
@@ -276,10 +251,9 @@
       "labels": [
         "gen5",
         "legendary",
-        "restricted"
       ],
       "aspects": [
-        "white-fusion"
+        "white"
       ],
       "abilities": [
         "turboblaze",
@@ -430,22 +404,7 @@
         "tutor:swift",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "whitekyurem_kyurem",
-          "variant": "level_up",
-          "result": "kyurem absofusion=zero",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [        
-            {
-              "variant": "party_member",
-              "target": "reshiram",
-              "contains": true
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -471,10 +430,9 @@
       "labels": [
         "gen5",
         "legendary",
-        "restricted"
       ],
       "aspects": [
-        "black-fusion"
+        "black"
       ],
       "abilities": [
         "teravolt",
@@ -625,22 +583,7 @@
         "tutor:swift",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "blackkyurem_kyurem",
-          "variant": "level_up",
-          "result": "kyurem absofusion=zero",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [        
-            {
-              "variant": "party_member",
-              "target": "zekrom",
-              "contains": true
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

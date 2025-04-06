@@ -233,21 +233,7 @@
     "tutor:twister",
     "tutor:waterpulse"
   ],
-  "evolutions": [
-    {
-      "id": "palkia_palkiaorigin",
-      "variant": "level_up",
-      "result": "palkia orb_forme=origin",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Origin",
@@ -386,21 +372,7 @@
         "tutor:trick",
         "tutor:waterpulse"
       ],
-      "evolutions": [
-        {
-          "id": "palkiaorigin_palkia",
-          "variant": "level_up",
-          "result": "palkia orb_forme=altered",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

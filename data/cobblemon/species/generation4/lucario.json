@@ -241,29 +241,7 @@
     "tutor:zenheadbutt"
   ],
   "preEvolution": "riolu",
-  "evolutions": [
-    {
-      "id": "lucario_megalucario",
-      "variant": "level_up",
-      "result": "lucario mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -296,21 +274,7 @@
       },
       "baseExperienceYield": 219,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megalucario_lucario",
-          "variant": "level_up",
-          "result": "lucario mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

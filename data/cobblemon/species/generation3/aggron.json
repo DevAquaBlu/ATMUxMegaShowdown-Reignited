@@ -265,29 +265,7 @@
     "tutor:waterpulse"
   ],
   "preEvolution": "lairon",
-  "evolutions": [
-    {
-      "id": "aggron_megaaggron",
-      "variant": "level_up",
-      "result": "aggron mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -319,21 +297,7 @@
       },
       "baseExperienceYield": 315,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megaaggron_aggron",
-          "variant": "level_up",
-          "result": "aggron mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

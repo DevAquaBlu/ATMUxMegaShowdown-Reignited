@@ -258,29 +258,7 @@
     "tutor:wonderroom"
   ],
   "preEvolution": "haunter",
-  "evolutions": [
-    {
-      "id": "gengar_megagengar",
-      "variant": "level_up",
-      "result": "gengar mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -313,21 +291,7 @@
       },
       "baseExperienceYield": 300,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megagengar_gengar",
-          "variant": "level_up",
-          "result": "gengar mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -349,7 +313,7 @@
       ],
       "dynamaxBlocked": true,
       "evolutions": [],
-      "battleOnly": true
+      "battleOnly": false
     }
   ]
 }

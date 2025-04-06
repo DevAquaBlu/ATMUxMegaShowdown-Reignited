@@ -239,29 +239,7 @@
     "tutor:zenheadbutt"
   ],
   "preEvolution": "metang",
-  "evolutions": [
-    {
-      "id": "metagross_megametagross",
-      "variant": "level_up",
-      "result": "metagross mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "70"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -299,21 +277,7 @@
       },
       "baseExperienceYield": 350,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megametagross_metagross",
-          "variant": "level_up",
-          "result": "metagross mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

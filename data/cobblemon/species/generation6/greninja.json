@@ -217,29 +217,7 @@
     "tutor:waterpulse"
   ],
   "preEvolution": "frogadier",
-  "evolutions": [
-    {
-      "id": "greninja_greninjaash",
-      "variant": "level_up",
-      "result": "greninja battle_bond=ash",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "friendship",
-          "amount": 210
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:soothe_bell"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Ash",
@@ -274,21 +252,7 @@
       },
       "baseExperienceYield": 320,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "greninjaash_greninja",
-          "variant": "level_up",
-          "result": "greninja battle_bond=bond",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:soothe_bell"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

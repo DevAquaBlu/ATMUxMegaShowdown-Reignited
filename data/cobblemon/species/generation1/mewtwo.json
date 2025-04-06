@@ -305,48 +305,6 @@
   ],
   "evolutions": [
     {
-      "id": "mewtwo_megamewtwox",
-      "variant": "level_up",
-      "result": "mewtwo mega-x",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "70"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    },
-    {
-      "id": "mewtwo_megamewtwoy",
-      "variant": "level_up",
-      "result": "mewtwo mega-y",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "70"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    },
-    {
       "id": "mewtwo_mewtwoarmored",
       "variant": "level_up",
       "result": "mewtwo armored",
@@ -409,21 +367,7 @@
       },
       "baseExperienceYield": 390,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megamewtwox_mewtwo",
-          "variant": "level_up",
-          "result": "mewtwo mega-x=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -464,21 +408,7 @@
       },
       "baseExperienceYield": 390,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megamewtwoy_mewtwo",
-          "variant": "level_up",
-          "result": "mewtwo mega-y=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -541,7 +471,7 @@
         "restricted"
       ],
       "aspects": [
-        "shadow"
+        "shadow-form"
       ],
       "abilities": [
         "shadowshield",

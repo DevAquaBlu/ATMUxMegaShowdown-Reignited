@@ -222,29 +222,7 @@
     "tutor:trick",
     "tutor:wonderroom"
   ],
-  "evolutions": [
-    {
-      "id": "diancie_megadiancie",
-      "variant": "level_up",
-      "result": "diancie mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "70"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -283,21 +261,7 @@
       },
       "baseExperienceYield": 350,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megadiancie_diancie",
-          "variant": "level_up",
-          "result": "diancie mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

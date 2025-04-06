@@ -246,21 +246,7 @@
     "tutor:wonderroom",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "hoopa_hoopaunbound",
-      "variant": "level_up",
-      "result": "hoopa djinn_state=unbound",
-      "consumeHeldItem": false,
-      "learnableMoves": ["hyperspacefury"],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:ominous_bottle"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Unbound",
@@ -451,21 +437,7 @@
         "tutor:wonderroom",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "hoopaunbound_hoopa",
-          "variant": "level_up",
-          "result": "hoopa djinn_state=confined",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:ominous_bottle"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

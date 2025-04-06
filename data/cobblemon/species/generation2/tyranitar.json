@@ -287,29 +287,7 @@
     "tutor:thunderpunch"
   ],
   "preEvolution": "pupitar",
-  "evolutions": [
-    {
-      "id": "tyranitar_megatyranitar",
-      "variant": "level_up",
-      "result": "tyranitar mega",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "70"
-        },
-        {
-          "variant": "friendship",
-          "amount": 180
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "minecraft:nether_star"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Mega",
@@ -343,21 +321,7 @@
       },
       "baseExperienceYield": 350,
       "dynamaxBlocked": true,
-      "evolutions": [
-        {
-          "id": "megatyranitar_tyranitar",
-          "variant": "level_up",
-          "result": "tyranitar mega=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "minecraft:nether_star"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]
