@@ -347,229 +347,7 @@
     "tutor:xscissor",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "arceus_arceusfighting",
-      "variant": "level_up",
-      "result": "arceus multitype=fighting",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:black_belt"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusflying",
-      "variant": "level_up",
-      "result": "arceus multitype=flying",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:sharp_beak"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceuspoison",
-      "variant": "level_up",
-      "result": "arceus multitype=poison",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:poison_barb"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusground",
-      "variant": "level_up",
-      "result": "arceus multitype=ground",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:soft_sand"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusrock",
-      "variant": "level_up",
-      "result": "arceus multitype=rock",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:hard_stone"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusbug",
-      "variant": "level_up",
-      "result": "arceus multitype=bug",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:silver_powder"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusghost",
-      "variant": "level_up",
-      "result": "arceus multitype=ghost",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:spell_tag"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceussteel",
-      "variant": "level_up",
-      "result": "arceus multitype=steel",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:metal_coat"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusfire",
-      "variant": "level_up",
-      "result": "arceus multitype=fire",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:charcoal_stick"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceuswater",
-      "variant": "level_up",
-      "result": "arceus multitype=water",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:mystic_water"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusgrass",
-      "variant": "level_up",
-      "result": "arceus multitype=grass",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:miracle_seed"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceuselectric",
-      "variant": "level_up",
-      "result": "arceus multitype=electric",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:magnet"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceuspsychic",
-      "variant": "level_up",
-      "result": "arceus multitype=psychic",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:twisted_spoon"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusice",
-      "variant": "level_up",
-      "result": "arceus multitype=ice",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:never_melt_ice"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusdragon",
-      "variant": "level_up",
-      "result": "arceus multitype=dragon",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:dragon_fang"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusdark",
-      "variant": "level_up",
-      "result": "arceus multitype=dark",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:black_glasses"
-        }          
-      ]
-    },
-    {
-      "id": "arceus_arceusfairy",
-      "variant": "level_up",
-      "result": "arceus multitype=fairy",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:fairy_feather"
-        }          
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Fighting",
@@ -587,21 +365,7 @@
       "aspects": [
         "fighting-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusfighting_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -620,21 +384,7 @@
       "aspects": [
         "flying-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusflying_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -886,21 +636,7 @@
         "tutor:xscissor",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "arceuspoison_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -919,21 +655,7 @@
       "aspects": [
         "ground-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusground_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -952,21 +674,7 @@
       "aspects": [
         "rock-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusrock_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -985,21 +693,7 @@
       "aspects": [
         "bug-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusbug_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1018,21 +712,7 @@
       "aspects": [
         "ghost-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusghost_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1051,21 +731,7 @@
       "aspects": [
         "steel-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceussteel_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1310,21 +976,7 @@
         "tutor:xscissor",
         "tutor:zenheadbutt"
       ],
-      "evolutions": [
-        {
-          "id": "arceusfire_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1343,21 +995,7 @@
       "aspects": [
         "water-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceuswater_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1376,21 +1014,7 @@
       "aspects": [
         "grass-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusgrass_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1409,21 +1033,7 @@
       "aspects": [
         "electric-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceuselectric_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1442,21 +1052,7 @@
       "aspects": [
         "psychic-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceuspsychic_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1475,21 +1071,7 @@
       "aspects": [
         "ice-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusice_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1508,21 +1090,7 @@
       "aspects": [
         "dragon-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusdragon_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1541,21 +1109,7 @@
       "aspects": [
         "dark-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusdark_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     },
     {
@@ -1574,21 +1128,7 @@
       "aspects": [
         "fairy-plate"
       ],
-      "evolutions": [
-        {
-          "id": "arceusfairy_arceus",
-          "variant": "level_up",
-          "result": "arceus multitype=normal",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:silk_scarf"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]

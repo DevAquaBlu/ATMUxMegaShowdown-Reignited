@@ -158,21 +158,7 @@
     "tutor:worryseed"
   ],
   "preEvolution": "cherubi",
-  "evolutions": [
-    {
-      "id": "cherrim_cherrimsunshine",
-      "variant": "level_up",
-      "result": "cherrim blossom_form=sunshine",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "sunnyday"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "forms": [
     {
       "name": "Sunshine",
@@ -273,21 +259,7 @@
         "tutor:synthesis",
         "tutor:worryseed"
       ],
-      "evolutions": [
-        {
-          "id": "cherrimsunshsine_cherrim",
-          "variant": "level_up",
-          "result": "cherrim blossom_form=overcast",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "has_move",
-              "move": "sunnyday"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "battleOnly": false
     }
   ]
