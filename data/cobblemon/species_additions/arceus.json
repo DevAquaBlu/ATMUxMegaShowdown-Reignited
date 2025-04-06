@@ -6,7 +6,7 @@
     "moving": {
       "canLook": true,
       "walk": {
-        "walkSpeed": 0.6,
+        "walkSpeed": 0.3,
         "canWalk": true,
         "avoidsLand": false
       },
@@ -14,15 +14,18 @@
       "canFly": true
     },
     "swim": {
-      "swimSpeed": 0.4,
-      "canSwimInWater": false,
-      "canBreatheUnderwater": false
+	  "hurtByLava": false,
+      "canWalkOnLava": true,
+      "canBreatheUnderlava": true,
+      "avoidsWater": false,
+      "canSwimInWater": true,
+      "canSwimInLava": true
     }
   }
 },
 "hitbox": {
-  "width": 4,
-  "height": 5,
+  "width": 3,
+  "height": 6,
   "fixed": false
 }
 }
