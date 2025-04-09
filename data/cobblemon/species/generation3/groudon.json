@@ -249,6 +249,7 @@
     "tutor:zenheadbutt"
   ],
   "evolutions": [],
+  "features": ["primal"],
   "forms": [
     {
       "name": "Primal",
