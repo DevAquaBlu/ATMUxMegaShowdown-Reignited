@@ -42,7 +42,7 @@
   "catchRate": 45,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 0.75,
+  "baseScale": 0.7,
   "hitbox": {
     "width": 1.35,
     "height": 2,
@@ -185,10 +185,10 @@
       "maleRatio": 0.5,
       "height": 18,
       "weight": 440,
-      "baseScale": 0.5,
+      "baseScale": 0.85,
       "hitbox": {
-        "width": 2.5,
-        "height": 3.5,
+        "width": 1.35,
+        "height": 2,
         "fixed": false
       },
       "pokedex": [
