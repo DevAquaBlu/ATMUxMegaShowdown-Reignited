@@ -1,7 +1,8 @@
 {
   "condition": {
 	"structures": [
-	  "#minecraft:village"
+	    "#minecraft:village",
+      "#bca:villages"
     ]
   }
 }
