@@ -2,6 +2,6 @@
   "pack": {
     "pack_format": 48,
     "supported_formats": {"min_inclusive":34,"max_inclusive": 48},
-    "description": "§bV1.1.3 - ATMU 1.2.9b x MegaShowdown 8.2.4"
+    "description": "§bV1.1.5 - ATMU 1.2.9b x MegaShowdown 8.2.4"
   }
 }
