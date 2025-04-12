@@ -3,32 +3,47 @@
   "portraitTranslation": [ 0, -2, 0 ],
   "profileScale": 1.5,
   "profileTranslation": [ 0, -0.5, 0 ],
-  "faint": "bedrock(azurill, faint)",
+  "rootBone": "azurill",
+  "animations": {
+    "cry": "q.bedrock_stateful('azurill', 'cry')",
+    "recoil": "q.bedrock_stateful('azurill', 'recoil')",
+    "special": "q.bedrock_primary('azurill', 'special', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('azurill', 'faint', q.curve('one'))"
+  },
   "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('azurill', 'battle_idle')"],
+	"quirks": [
+        "q.bedrock_quirk('azurill', 'blink')"
+		]
+    },
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
+      "poseTypes": [ "STAND", "NONE", "PORTRAIT", "PROFILE" ],
+      "isBattle": false,
       "animations": [
-        "bedrock(azurill, ground_idle)"
+        "q.bedrock('azurill', 'ground_idle')"
       ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(azurill, blink)"]
-          }
+	"quirks": [
+        "q.bedrock_quirk('azurill', 'blink')"
 		]
     },
     "walking": {
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": [ "WALK" ],
-      "animations": [ "bedrock(azurill, ground_walk)" ]
+      "animations": [ "q.bedrock('azurill', 'ground_walk')" ],
+	"quirks": [
+        "q.bedrock_quirk('azurill', 'blink')"
+		]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('azurill', 'sleep')"]
     }
   }
 }
