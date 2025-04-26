@@ -7,26 +7,14 @@
             "poser": "cobblemon:toxtricitya",
             "model": "cobblemon:toxtricitya.geo",
             "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricitya.png",
-            "layers": [
-                {
-                    "name": "emissive",
-                    "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricitya_emissive.png"
-                }
-            ]
+            "layers": []
         },
         {
             "aspects": [
                 "shiny"
             ],
             "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricitya_shiny.png",
-            "layers": [
-                {
-                    "name": "emissive",
-                    "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricitya_shiny_emissive.png"
-                }
-            ]
+            "layers": []
         }
     ]
 }
