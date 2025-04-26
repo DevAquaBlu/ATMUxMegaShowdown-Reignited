@@ -1,0 +1,10 @@
+{
+  "implemented": true,
+  "target": "cobblemon:toxel",
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.25,
+    "fixed": false
+  }
+}

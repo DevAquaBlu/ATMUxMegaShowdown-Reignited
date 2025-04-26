@@ -6,14 +6,14 @@
             "aspects": [
                 "low_key-form"
             ],
-            "poser": "cobblemon:toxtricity_lowkey",
-            "model": "cobblemon:toxtricity_lowkey.geo",
-            "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricity_lowkey.png",
+            "poser": "cobblemon:toxtricityb",
+            "model": "cobblemon:toxtricityb.geo",
+            "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricityb.png",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricity_lowkey_emissive.png"
+                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricityb_emissive.png"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 "shiny",
                 "low_key-form"
             ],
-            "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricity_lowkey_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricityb_shiny.png",
             "layers": [
                 {
                     "name": "emissive",
                     "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricity_lowkey_emissive.png"
+                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricityb_emissive.png"
                 }
             ]
         }
