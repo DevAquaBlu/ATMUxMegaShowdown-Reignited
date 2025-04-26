@@ -27,7 +27,7 @@
                 {
                     "name": "emissive",
                     "emissive": true,
-                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricityb_emissive.png"
+                    "texture": "cobblemon:textures/pokemon/0849_toxtricity/toxtricityb_shiny_emissive.png"
                 }
             ]
         }
