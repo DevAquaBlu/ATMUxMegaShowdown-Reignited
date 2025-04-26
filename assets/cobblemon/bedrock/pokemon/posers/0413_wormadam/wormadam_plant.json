@@ -23,13 +23,13 @@
                 "FLOAT"
             ],
             "animations": [
-                "bedrock(wormadam, ground_idle)"
+                "bedrock(wormadam_plant, ground_idle)"
             ],
             "quirks": [
                 {
                     "name": "blink",
                     "animations": [
-                        "bedrock(wormadam, blink)"
+                        "bedrock(wormadam_plant, blink)"
                     ]
                 }
             ]
@@ -41,13 +41,13 @@
                 "WALK"
             ],
             "animations": [
-                "bedrock(wormadam, ground_idle)"
+                "bedrock(wormadam_plant, ground_idle)"
             ],
             "quirks": [
                 {
                     "name": "blink",
                     "animations": [
-                        "bedrock(wormadam, blink)"
+                        "bedrock(wormadam_plant, blink)"
                     ]
                 }
             ]

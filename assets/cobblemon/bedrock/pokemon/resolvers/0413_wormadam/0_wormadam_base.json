@@ -4,18 +4,18 @@
     "variations": [
         {
             "aspects": [],
-            "poser": "cobblemon:wormadam",
-            "model": "cobblemon:wormadam_grass.geo",
-            "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_grass.png",
+            "poser": "cobblemon:wormadam_plant",
+            "model": "cobblemon:wormadam_plant.geo",
+            "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_plant.png",
             "layers": []
         },
         {
             "aspects": [
                 "shiny"
             ],
-            "poser": "cobblemon:wormadam",
-            "model": "cobblemon:wormadam_grass.geo",
-            "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_grass_shiny.png",
+            "poser": "cobblemon:wormadam_plant",
+            "model": "cobblemon:wormadam_plant.geo",
+            "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_plant_shiny.png",
             "layers": []
         }
     ]
