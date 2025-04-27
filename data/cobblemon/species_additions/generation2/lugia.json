@@ -27,7 +27,7 @@
     {
       "id": "lugia_lugiashadow",
       "variant": "item_interact",
-      "result": "lugia shadow",
+      "result": "lugia shadow-form",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],

@@ -4,7 +4,7 @@
     "variations": [
         {
             "aspects": [
-                "shadow"
+                "shadow-form"
             ],
             "model": "cobblemon:lugia_shadow.geo",
             "texture": "cobblemon:textures/pokemon/0249_lugia/lugia_shadow.png",
@@ -18,7 +18,7 @@
         },
         {
             "aspects": [
-                "shadow",
+                "shadow-form",
                 "shiny"
             ],
             "texture": "cobblemon:textures/pokemon/0249_lugia/lugia_shadow_shiny.png",

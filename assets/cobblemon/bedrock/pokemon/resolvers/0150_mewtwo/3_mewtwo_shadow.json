@@ -4,7 +4,7 @@
     "variations": [
         {
             "aspects": [
-                "shadow"
+                "shadow-form"
             ],
             "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_shadow.png",
             "layers": [

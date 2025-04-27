@@ -320,7 +320,7 @@
     {
       "id": "mewtwo_mewtwoshadow",
       "variant": "item_interact",
-      "result": "mewtwo shadow",
+      "result": "mewtwo shadow-form",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
