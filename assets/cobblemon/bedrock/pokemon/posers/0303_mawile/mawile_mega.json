@@ -22,7 +22,7 @@
                 "PROFILE"
             ],
             "animations": [
-                "bedrock(mawile_mega, ground_idle)"
+                "bedrock(mawilemega, ground_idle)"
             ]
         },
         "walking": {
@@ -32,7 +32,7 @@
                 "WALK"
             ],
             "animations": [
-                "bedrock(mawile_mega, ground_walk)"
+                "bedrock(mawilemega, ground_walk)"
             ]
         }
     }

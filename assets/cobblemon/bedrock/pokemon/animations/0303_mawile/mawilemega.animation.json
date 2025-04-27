@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.mawile_mega.ground_idle": {
+        "animation.mawilemega.ground_idle": {
             "loop": true,
             "bones": {
                 "mouth": {
@@ -298,7 +298,7 @@
                 }
             }
         },
-        "animation.mawile_mega.ground_walk": {
+        "animation.mawilemega.ground_walk": {
             "loop": true,
             "bones": {
                 "mouth": {
